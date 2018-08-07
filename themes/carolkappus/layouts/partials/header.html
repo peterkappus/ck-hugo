@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    {{ $style := resources.Get "sass/main.sass" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+    <title>Carol Kappus | Celtic Harp</title>
+  </head>
+  <body>
+    <nav class="container navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">Carol Kappus</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/store">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/music-videos">Music & Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/harps">Harps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/calendar">Calendar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/press">Press</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Lessons & Workshops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col pl-0">

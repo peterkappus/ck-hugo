@@ -16,7 +16,7 @@ draft: false
 
 <div class="col-md-4"><h3 class="line">Bruce</h3><img src="/img/harp-bruce.jpg" /><p>Bruce is a DHC32 electric harp, the harp developed by Deborah Henson-Conant and Camac Harps. He only works with amplification but when plugged in to my Bose amp, his sound is big, warm and rich. Playing Bruce is like flying a jet plane! Exciting. Bruce was featured in an article about him in the winter 2017 edition of Folk Harp Journal.</p>
 
-<p>Hear bruce playing <i>Calanais</i> below:</p><audio controls=""><source src="music/calanais.m4a" type="audio/mp4">></source><b>Your browser does not support the audio element.</b></audio></div>
+<p>Hear bruce playing <i>Calanais</i> below:</p><audio controls=""><source src="/music-videos/music/calanais.m4a" type="audio/mp4"></source><b>Your browser does not support the audio element.</b></audio></div>
 </div>
 
 <div class="row"><div class="col" style="margin-top: 1rem">

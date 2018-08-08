@@ -41,14 +41,16 @@
             <a class="nav-link" href="/press">Press</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Lessons & Workshops</a>
+            <a class="nav-link" href="/lessons-workshops">Lessons & Workshops</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="/contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
     <div class="container">
       <div class="row">
-        <div class="col pl-0">
+        <div class="{{if (fileExists (printf "%s%s" .File.Dir  "/sidebar.md"))}}col-md-8{{end}} pl-0">
+          <h1>{{ .Title}}</h1>
+          {{ .Content }}

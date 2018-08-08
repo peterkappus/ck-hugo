@@ -13,7 +13,6 @@ sidebar_file: press/sidebar.md
 ---
 
 ## Celtic collection: Harpers from across region gather for workshop, concert in Cass County
----
 **Mitchell Kirk, Pharos Tribune**
 
 _Oct 16, 2017_

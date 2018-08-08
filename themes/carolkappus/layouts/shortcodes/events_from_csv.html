@@ -1,0 +1,38 @@
+
+{{ $list := getCSV "," "content/calendar/export.csv" }}
+{{ range $i, $r := $list }}
+{{ $title := index $r 3 }}
+{{ $date := index $r 0 }}
+{{ $time := index $r 2 }}
+
+{{ $blurb :=  index $r 4 }}
+{{ $address :=  index $r 6 }}
+{{ $venue :=  index $r 5 }}
+
+  <!-- skip the first row which has a title of Title -->
+  {{ if( ne (index $r 3) "Title")}}
+    {{ if( eq (mod $i 2) 1) }}
+      <div class="row event px-0">
+    {{- end}}
+     <div class="col-sm-6">
+      <small>
+        <i>{{ $date }} {{ $time }}</i>
+      </small>
+      <div class="title">{{ $title }}</div>
+      {{ if $blurb}}
+      <p class="blurb">{{ index $r 4}}</p>
+      {{- end}}
+      <div class="venue"> 
+        {{ $venue }}
+        {{ if( $address )}}
+          <i>{{$address}}</i>
+          <br/><a href="http://maps.google.com?q={{$address}}" target="_blank">MAP &raquo;</a>
+        {{- end}}
+      </div>
+    </div>
+    {{ if (or (eq (mod $i 2) 0) (eq $i (len $list))) }}
+      </div>
+    {{- end}}       
+  {{- end}}
+{{- end }}
+</div>

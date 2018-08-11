@@ -8,6 +8,4 @@ aliases: [events.html, events]
 
 <p class="lead">Carol performs regularly throughout Michigan and the Greater Midwest with frequent appearances in Scotland. For more information, or to book your own event, <a href="/contact">please get in touch</a>. </p>
 
-## Upcoming Events
-
 {{< events_from_csv >}}

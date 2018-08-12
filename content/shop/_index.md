@@ -1,5 +1,5 @@
 ---
-title: Shop
+title: Buy Celtic Harp Sheet Music
 date: 2018-08-11T21:58:40-04:00
 draft: false
 aliases: ['store.html','/buy','buy','store']

@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+h1 style="width:100%;" {{.Title}} 
+
+p {{.Content}}
+.row.shop
+  
+  {{ range .Data.Pages}}
+    .col-md-3
+      a href="{{ .RelPermalink }}"
+        img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"
+      .title
+        h4
+          a href="{{ .RelPermalink}}" {{ .Title}}
+  {{end}}
+
+
+p style="border-top: 1px solid #999; width: 100%; display: block; text-align: center; padding-top: 1rem" Not finding what you're looking for? <a href="/contact">Get in touch.</a>
+{{ partial "footer.html" . }}

@@ -4,7 +4,7 @@ date: 2018-08-07T17:12:27-04:00
 draft: false
 aliases: ['teaching','lessons','lessons.html']
 ---
-<p class="lead">With several decades of teaching students of all ages and abilities, Carol's Celtic harp lessons are fun, encouraging and empowering. They emphasize making music for enjoyment. Carol helps you train your hands to use patterns that make playing easy. Carol teaches harp lessons throughout southern Michigan and online using Skype, FaceTime, or the video-conferencing tool of your choice. <a href="/contact">Contact Carol</a> to learn more.</p>
+<p class="lead">With several decades of teaching students of all ages and abilities, Carol's Celtic harp lessons are fun, encouraging, and empowering. They emphasize making music for enjoyment. Carol helps you train your hands to use patterns that make playing easy. Carol teaches harp lessons throughout southern Michigan and online using Skype, FaceTime, or the video-conferencing tool of your choice. <a href="/contact">Contact Carol</a> to learn more.</p>
 
 <div class="card bg-white">
   <div class="card-body quote"><p class="lead">The harp is such a beautiful instrument that even a beginner can make wonderful music on day one.</p><p>&ndash; Carol Kappus</p></div>
@@ -12,8 +12,14 @@ aliases: ['teaching','lessons','lessons.html']
 
 
 <h2>Celtic Harp Workshops</h2>
-<p class="lead">In addition to private harp lessons, Carol is available to teach workshops. She can tailor workshops to a wide variety of formats, and interests. Below are two popular workshops.</p>
+<p class="lead">In addition to private harp lessons, Carol is available to teach workshops. She can tailor workshops to a wide variety of formats, and interests. Below are some popular workshops. <a href="/contact">Contact Carol</a> to find out more.</p>
+
+<h3>Promo for Scottish Tunes Workshop</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xRtX38yhito" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 <div class="row">
+
 <div class="col-md-6"><h3>Magic Hands!</h3><p>Carol uses a group of chords and hand positions which make up a lot of what we play and which she uses for everything from intros, accompaniments, technic strengthening exercises, playing by ear. We will work on ways to build these chords and hand positions into your hands until they become automatic and you can plug them in anywhere!  You will probably find that using this system will give your playing a lot more flow and will make it easier and more fun.  We will use this system of chords hand positions to learn several wonderful tunes and you will  go home with a packet of great chord based arrangements to enjoy. Level: Experienced beginner through intermediate.</p></div>
 <div class="col-md-6"><h3>Play in the Concert!  </h3><p>When Carol's visit includes a concert, you can join her on stage. There are several tunes you can join in on. It’s simple and fun. During the workshop period we will put these tunes together and in the evening, you can join Carol on stage to play on these tunes. It’s fun and for those of you who haven’t played for others much and want to it’s a simple way to get up on stage and get started. Your part will be simple but put together it sounds cool and you don’t need to worry because all the parts will be well covered no matter what you do (or don’t do)! So I hope you’ll come join me for a fun way to end the time we've spent together. Even if you don’t want to join the group in playing in the concert, you are welcome to come and watch and listen to how we put these tunes together.  So I hope you will join me!  </p></div></div>
 <div class="row">

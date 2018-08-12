@@ -9,7 +9,7 @@ aliases: ['performance.html','/performance']
 <div class="col-md-8">
 <h1>Celtic Harp Performances</h1>
 
-<p class="lead">Carol has a number of pre-written shows and can also custom create a performance to perfectly suit your event. Her repertoire includes many traditional Celtic tunes, music of Robert Burns, and special St. Patrick's Day shows. Performances can also include tunes on the new <a href="/harps">electric DHC32 harp</a>. Here are examples of some of Carol’s most popular shows.</p></div>
+<p class="lead">Carol has a number of pre-written shows and can also custom create a performance to perfectly suit your event. Her repertoire includes many traditional Celtic tunes, music of Robert Burns, and special St. Patrick's Day shows. Performances can also include tunes on the new <a href="/harps">electric DHC32 harp</a>. Here are examples of some of Carol’s most popular shows. Check out some <a href="/music-videos">videos</a>.</p></div>
 
 <div class="sidebar col-md-4"><h2>Contact</h2><a class="btn btn-primary" href="/contact">Contact Carol now</a><br /><br /><p>Contact Carol to book a performance and bring the magic of live Celtic harp music your next event!</p></div></div>
 

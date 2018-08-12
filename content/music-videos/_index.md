@@ -6,7 +6,7 @@ aliases: [music.html, music]
 
 ---
 
-<p class="lead">A selection of music and videos featuring Carol Kappus on Celtic Harp.</p>
+<p class="lead">A selection of music and videos featuring Carol Kappus on Celtic Harp. Check out her <a href="https://www.youtube.com/channel/UC5qj9r5ziOtseNLmw26zm0A" target="_blank">YouTube Channel</a> for more.</p>
 
 <div class="row music">
 
@@ -15,7 +15,21 @@ Legends (excerpt)</h3><iframe width="100%" height="450px" src="https://www.youtu
 
 <div class="col-md-12"><h3 class="vid_title">The Fairy Pools (original composition)</h3><iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/279767649&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
 
-<div class="col-md-12"><h3 class="vid_title">The Parting Glass - Mo Ghille Mear</h3><iframe width="100%" height="480" src="https://www.youtube.com/embed/xeyc2ZgxPTI" frameborder="0" allowfullscreen></iframe></div>
+<div class="col-md-12">
+
+
+<h3>Sixteen Tons (with dancers)</h3>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/8WePzqDqomM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<h3>The Valley of Strathmore</h3>
+
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/TlshQaYMNq8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<h3 class="vid_title">The Parting Glass - Mo Ghille Mear</h3>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/xeyc2ZgxPTI" frameborder="0" allowfullscreen></iframe>
+
+
+</div>
 
 <div class="col-md-6"><h3 class="vid_title">A jazzier Danny Boy</h3><iframe width="100%" height="515" src="https://www.youtube.com/embed/wW6dG4qna1A" frameborder="0" allowfullscreen></iframe></div>
 
@@ -23,9 +37,18 @@ Legends (excerpt)</h3><iframe width="100%" height="450px" src="https://www.youtu
 
 <div class="col-md-6"><h3 class="vid_title">An Cluinn Thu Mi Mo Nighean Donn</h3><iframe width="100%" height="515" src="http://www.youtube.com/embed/IjUie2p_vy0" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="col-md-6"><h3 class="vid_title">Danny Boy</h3><iframe height="515" width="100%" src="http://www.youtube.com/embed/Vt_0E_P30Z0" frameborder="0" allowfullscreen></iframe></div>
+<!-- no longer needed -->
+<!--div class="col-md-6"><h3 class="vid_title">Danny Boy</h3><iframe height="515" width="100%" src="http://www.youtube.com/embed/Vt_0E_P30Z0" frameborder="0" allowfullscreen></iframe></div-->
 
-<div class="col-md-12"><h3 class="vid_title">Ann Arbor Celtic Harpers</h3><p>A clip from a Valentine's Day concert, 2011</p><iframe  src="http://www.youtube.com/embed/9DC2m6a7lNY" frameborder="0" allowfullscreen></iframe></div>
+<div class="col-md-12">
+
+<h3>Blue Caledonia Promo Video</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tmyaU4EuyGY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<h3 class="vid_title">Ann Arbor Celtic Harpers</h3><p>A clip from a Valentine's Day concert, 2011</p><iframe  src="http://www.youtube.com/embed/9DC2m6a7lNY" frameborder="0" allowfullscreen></iframe>
+
+</div>
 
 <!-- row -->
 </div>

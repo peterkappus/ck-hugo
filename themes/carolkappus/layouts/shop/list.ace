@@ -14,7 +14,7 @@
                   = include partials/shopitem.html .
               {{ end }}
               
-      .col-md-8.shop.pl-0
+      .col-md-8.shop
         h2 Printed Books
         p These professionally printed books feature plastic comb-binding so they will lay flat on your music stand.
         .row.shop
@@ -25,8 +25,7 @@
           .col-md-6
             .card.border.border-info style="margin-top: 5rem"
               .card-body
-                h4 style="width: 100%; display: block; text-align: center; padding-top: 1rem" Not finding what you're looking for? <a href="/contact">Get in touch.</a>
-          
+                h4 style="width: 100%; display: block; text-align: center; padding-top: 1rem" Not finding what you're looking for? <a href="/contact">Get in touch.</a>      
           
       .col-md-4.shop.hide-small
         .card.bg-secondary.text-white

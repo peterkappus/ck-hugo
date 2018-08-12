@@ -6,18 +6,8 @@
       .col-md-4
         img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"
         {{ partial "buybutton.html" . }}
-        h3 More music
-        {{ range $i, $item := where .Site.Pages "Type" "shop" | intersect (where .Site.Pages "Title" "!=" .Title) | intersect (where .Site.Pages "Title" "!=" "Buy Celtic Harp Sheet Music") | shuffle | first 4 }}
-          {{if eq (mod $i 2) 0 }}<div class="row">{{- end -}}
-            .col-sm-6 style="margin-bottom: 2rem"
-              a href="{{ $item.RelPermalink }}"
-                img class="cover lazy" src="{{trim (partial "getcover.html" $item) "\n" }}" style="width:100%"
-              .title
-                small
-                  a href="{{ $item.RelPermalink}}" {{ $item.Title }}
-          {{if eq (mod $i 2) 1 }}</div>{{- end -}}
-                  
-        {{- end -}}
+        .hide-small
+          = include partials/relateditems.html .
 
       .col-md-8
         {{if (.Params.digital)}}
@@ -53,4 +43,7 @@
             small Emailed to you after purchase (no shipping)
             {{- end }}
             {{ partial "buybutton.html" . }}
+        .show-small
+          = include partials/relateditems.html .
+
 {{ partial "footer.html" . }}

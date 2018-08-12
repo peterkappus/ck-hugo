@@ -1,5 +1,5 @@
 body
-  margin-top: 60px
+  margin-top: 80px
   background: url(../subtle-grunge.png)
   
 .jumbotron 
@@ -11,8 +11,8 @@ body
     font-size: 5rem
     
 h1, h2, h3
-  margin-top: 2rem
   margin-bottom: 1rem
+  margin-top: 1rem
   padding-bottom: 0.25rem
   border-bottom: 1px solid #ccc
   
@@ -64,12 +64,13 @@ ol.song
     font-size: 1.2rem
     margin-bottom: 0.5rem
 
-.sidebar img
-  margin-top: 1rem
-  width: 100%
+.sidebar 
+  img
+    width: 100%
+  h2
+    margin-top: 26px
   
 .row.event 
-  padding: 1rem
   i
     display: inline-block
   b
@@ -91,6 +92,8 @@ ol.song
       margin-top: 0.25rem
       color: #555
       font-size: 0.8rem
+  .col-sm-6
+    margin-bottom: 1rem
       
 .showheader
   height: 180px
@@ -115,12 +118,17 @@ ol.song
 @media (max-width: 768px)
   .hide-small
     display: none
-
-@media (min-width: 768px)
   .show-small
     display: block
-
   
+@media (min-width: 768px)
+  .show-small
+    display: none
+
+/* audio player 100% (for responsive) */
+.audiojs
+  width: 100%    
+    
 .shop 
   .col-md-3,.col-md-4
     margin-bottom: 2rem
@@ -153,4 +161,3 @@ ol.song
     -webkit-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75)
     -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75)
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75)
-    margin-bottom: 2rem

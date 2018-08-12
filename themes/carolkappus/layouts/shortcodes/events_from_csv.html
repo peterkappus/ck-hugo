@@ -23,10 +23,13 @@
       <p class="blurb">{{ index $r 4}}</p>
       {{- end}}
       <div class="venue"> 
-        {{ $venue }}
+        {{if $venue }}
+          {{ $venue }}
+          <br/>
+        {{- end}}
         {{ if( $address )}}
           <i>{{$address}}</i>
-          <br/><a href="http://maps.google.com?q={{$address}}" target="_blank">MAP &raquo;</a>
+          <br><a href="http://maps.google.com?q={{$address}}" target="_blank">MAP &raquo;</a>
         {{- end}}
       </div>
     </div>

@@ -25,7 +25,7 @@ Legends (excerpt)</h3><iframe width="100%" height="450px" src="https://www.youtu
 
 <div class="col-md-6"><h3 class="vid_title">Danny Boy</h3><iframe height="515" width="100%" src="http://www.youtube.com/embed/Vt_0E_P30Z0" frameborder="0" allowfullscreen></iframe></div>
 
-<div class="col-md-12"><h3 class="vid_title">Ann Arbor Celtic Harpers</h3><p>A clip from a Valentine's Day concert, 2011</p><iframe width="853" height="480" src="http://www.youtube.com/embed/9DC2m6a7lNY" frameborder="0" allowfullscreen></iframe></div>
+<div class="col-md-12"><h3 class="vid_title">Ann Arbor Celtic Harpers</h3><p>A clip from a Valentine's Day concert, 2011</p><iframe  src="http://www.youtube.com/embed/9DC2m6a7lNY" frameborder="0" allowfullscreen></iframe></div>
 
 <!-- row -->
 </div>

@@ -19,11 +19,11 @@ current_nav: about
 
 <div class="row">
 
-<div class="col-md-8">
+<div class="col-md-8" style="margin-bottom: 1.5rem">
 
 <h2>Welcome!</h2>
 
-<p>Carol Kappus is an award-winning Celtic harper and singer specializing in Scottish music including traditional songs, songs of Robert Burns, and songs in Scots Gaelic. She gives performances and teaches both <a href="/lessons">private lessons</a>, and <a href="/lessons">workshops</a>. </p>
+<p>Carol Kappus is an award-winning Celtic harper and singer specializing in Scottish music including traditional songs, songs of Robert Burns, and songs in Scots Gaelic. She gives <a href="/performances">performances</a>, teaches <a href="/lessons">private lessons</a>, and leads <a href="/lessons">workshops</a>. </p>
 <a href="/about" class="btn btn-primary btn-large">Learn more about Carol</a>
 </div>
 

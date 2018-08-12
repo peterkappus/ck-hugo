@@ -5,10 +5,17 @@ draft: false
 current_nav: about
 ---
 
-<div class="jumbotron">
+<div class="jumbotron hide-small">
   <h1>Carol Kappus</h1>
   <p class="lead">Reconnect with the joy of playing!</p>
-  <p><a class="btn btn-primary" href="/about">Learn more</a></p></div>
+  <p><a class="btn btn-primary" href="/about">Learn more</a></p>
+</div>
+
+
+<div class="show-small">
+  <h1>Carol Kappus</h1>
+  <div class="jumbotron" style="height: 450px"></div>
+</div>
 
 <div class="row">
 

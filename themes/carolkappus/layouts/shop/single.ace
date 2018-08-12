@@ -18,6 +18,15 @@
         {{- end }}
         {{ partial "buybutton.html" . }}
     {{.Content}}
+    {{ if (.Params.sample)}}
+      .card.bg-light.sample
+        .card-body
+          center
+            h2 Listen to a sample
+            audio controls=""
+              source src="{{.Params.sample}}" type="audio/mp4"
+              b Your browser does not support the audio element.
+    {{- end}}
     .card.bg-info.text-light
       center
         h3 ${{ string .Params.price }}

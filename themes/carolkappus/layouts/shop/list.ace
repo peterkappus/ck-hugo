@@ -1,18 +1,35 @@
 {{ partial "header.html" . }}
-h1 style="width:100%;" {{.Title}} 
-
-p {{.Content}}
-.row.shop
+  .col-md-8.shop.pl-0
+    h1 style="width:100%;" {{.Title}} 
+    p {{.Content}}
+    h2 Printed Books
+    p These professionally printed books feature plastic comb-binding so they will lay flat on your music stand.
+    .row.shop
+      {{ range where .Data.Pages "Params.digital" "!=" "true"}}
+        .col-md-6
+          a href="{{ .RelPermalink }}"
+            img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"
+          .title
+            h4
+              a href="{{ .RelPermalink}}" {{ .Title}}
+      {{end}}
+      
+      p style="border-top: 1px solid #999; width: 100%; display: block; text-align: center; padding-top: 1rem" Not finding what you're looking for? <a href="/contact">Get in touch.</a>
+      
+      
+  .col-md-4.shop
+    .card.bg-secondary.text-white
+      .card-body
+        h2 Digital Downloads
+        p These pieces are distributed as PDFs which will be emailed to you after completing your order.
+        .row    
+          {{ range where .Data.Pages "Params.digital" "true" }}
+          .col-md-12
+            a href="{{ .RelPermalink }}"
+              img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"
+            .title
+              h4
+                a href="{{ .RelPermalink}}" {{ .Title}}
+          {{ end }}
   
-  {{ range .Data.Pages}}
-    .col-md-3
-      a href="{{ .RelPermalink }}"
-        img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"
-      .title
-        h4
-          a href="{{ .RelPermalink}}" {{ .Title}}
-  {{end}}
-
-
-p style="border-top: 1px solid #999; width: 100%; display: block; text-align: center; padding-top: 1rem" Not finding what you're looking for? <a href="/contact">Get in touch.</a>
 {{ partial "footer.html" . }}

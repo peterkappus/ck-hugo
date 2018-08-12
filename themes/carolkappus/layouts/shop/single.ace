@@ -1,39 +1,39 @@
 {{ partial "header.html" . }}
-.col-md-12
-  h3 style="border: none"
-    a style="color: black" href="/shop" &laquo; Back to the shop
-.row.shop
-  .col-md-4
-    img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"
-    {{ partial "buybutton.html" . }}
-  .col-md-8
-    h1 {{.Title}}
-    .card.bg-info.text-light
-      center
-        h3 ${{ string .Params.price }}
-        {{ if .Params.shipping }}
-        small + ${{ .Params.shipping  }} postage to USA & Canada
-        {{ else }}
-        small Emailed to you after purchase (no shipping)
-        {{- end }}
+  .col-md-12
+    h3 style="border: none"
+      a style="color: black" href="/shop" &laquo; Back to the shop
+    .row.shop
+      .col-md-4
+        img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"
         {{ partial "buybutton.html" . }}
-    {{.Content}}
-    {{ if (.Params.sample)}}
-      .card.bg-light.sample
-        .card-body
+      .col-md-8
+        h1 {{.Title}}
+        .card.bg-info.text-light
           center
-            h2 Listen to a sample
-            audio controls=""
-              source src="{{.Params.sample}}" type="audio/mp4"
-              b Your browser does not support the audio element.
-    {{- end}}
-    .card.bg-info.text-light
-      center
-        h3 ${{ string .Params.price }}
-        {{ if .Params.shipping }}
-        small + ${{ .Params.shipping  }} postage to USA & Canada
-        {{ else }}
-        small Emailed to you after purchase (no shipping)
-        {{- end }}
-        {{ partial "buybutton.html" . }}
+            h3 ${{ string .Params.price }}
+            {{ if .Params.shipping }}
+            small + ${{ .Params.shipping  }} postage to USA & Canada
+            {{ else }}
+            small Emailed to you after purchase (no shipping)
+            {{- end }}
+            {{ partial "buybutton.html" . }}
+        {{.Content}}
+        {{ if (.Params.sample)}}
+          .card.bg-light.sample
+            .card-body
+              center
+                h2 Listen to a sample
+                audio controls=""
+                  source src="{{.Params.sample}}" type="audio/mp4"
+                  b Your browser does not support the audio element.
+        {{- end}}
+        .card.bg-info.text-light
+          center
+            h3 ${{ string .Params.price }}
+            {{ if .Params.shipping }}
+            small + ${{ .Params.shipping  }} postage to USA & Canada
+            {{ else }}
+            small Emailed to you after purchase (no shipping)
+            {{- end }}
+            {{ partial "buybutton.html" . }}
 {{ partial "footer.html" . }}

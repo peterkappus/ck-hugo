@@ -1,0 +1,9 @@
+div class="{{if (fileExists (printf "%s%s" .File.Dir  "/sidebar.md"))}}col-md-8{{else}}col-md-12{{end}} pl-0"
+  {{ if .Title}}
+    h1 {{ .Title }}
+  {{- end}}
+  {{ .Content }}
+{{if (fileExists (printf "%s%s" .File.Dir  "/sidebar.md")) -}}
+  .sidebar.col-md-4.px-0
+    {{readFile (printf "%s%s" .File.Dir  "/sidebar.md") | markdownify}}
+{{- end }}

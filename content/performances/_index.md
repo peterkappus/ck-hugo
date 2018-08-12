@@ -22,3 +22,4 @@ aliases: ['performance.html','/performance']
 <div class="col-md-4"><h3>Music of Scotland</h3><div class="showheader scotland"></div><p>Combining music and imagery, this show features the songs and stories of Scotland including songs of Robert Burns, traditional songs, and songs in Scots Gaelic.</p></div></div>
 
 <div class="row"><div class="span12"><br /><a class="btn btn-primary btn-large" href="/contact">Get in Touch!</a><br /><br /></div>
+</div>

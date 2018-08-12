@@ -11,7 +11,7 @@
     .card.bg-info.text-light
       center
         h3 ${{ string .Params.price }}
-        {{ if .Params.shipipping }}
+        {{ if .Params.shipping }}
         small + ${{ .Params.shipping  }} postage to USA & Canada
         {{ else }}
         small Emailed to you after purchase (no shipping)
@@ -21,7 +21,7 @@
     .card.bg-info.text-light
       center
         h3 ${{ string .Params.price }}
-        {{ if .Params.shipipping }}
+        {{ if .Params.shipping }}
         small + ${{ .Params.shipping  }} postage to USA & Canada
         {{ else }}
         small Emailed to you after purchase (no shipping)

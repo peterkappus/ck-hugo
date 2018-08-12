@@ -5,7 +5,7 @@ aliases: [harps.html]
 draft: false
 ---
 
-<p class="lead"> They say harps are like potato chips – you can’t have just one! Some are rented to <a href="/lessons-workshops">students</a> but these are the ones that Carol keeps for her own use. Visit the <a href="/music">music page</a> to hear them in action.</p>
+<p class="lead">They say harps are like potato chips – you can’t have just one! Some are rented to <a href="/lessons-workshops">students</a> but these are the ones that Carol keeps for her own use. Visit the <a href="/music">music page</a> to hear them in action.</p>
 
 
 <div class="row harps">

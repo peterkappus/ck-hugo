@@ -2,9 +2,9 @@
 title: Celtic Harp Lessons & Workshops
 date: 2018-08-07T17:12:27-04:00
 draft: false
-aliases: [lessons,lessons.html]
+aliases: ['teaching','lessons','lessons.html']
 ---
-<p class="lead">With several decades of teaching students of all ages and abilities, Carol's celtic harp lessons are fun, encouraging and empowering. They emphasize making music for enjoyment. Carol helps you train your hands to use patterns that make playing easy. Carol teaches harp lessons throughout southern Michigan and online using Skype, FaceTime, or the video-conferencing tool of your choice. <a href="/contact">Contact Carol</a> to learn more.</p>
+<p class="lead">With several decades of teaching students of all ages and abilities, Carol's Celtic harp lessons are fun, encouraging and empowering. They emphasize making music for enjoyment. Carol helps you train your hands to use patterns that make playing easy. Carol teaches harp lessons throughout southern Michigan and online using Skype, FaceTime, or the video-conferencing tool of your choice. <a href="/contact">Contact Carol</a> to learn more.</p>
 
 <div class="card bg-white">
   <div class="card-body quote"><p class="lead">The harp is such a beautiful instrument that even a beginner can make wonderful music on day one.</p><p>&ndash; Carol Kappus</p></div>

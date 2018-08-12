@@ -10,7 +10,8 @@ draft: false
 <div class="col-md-6">
 <p>Carol Kappus loves to share her enjoyment of harping with others. If you have always dreamed of playing the harp, she can help you make your dream come true! Carol’s students tell her that studying with her is fun, encouraging and uplifting. No experience is necessary to learn to play the harp. We can also build on any previous experience you may have. You will learn in a no stress atmosphere emphasizing the pleasure of making music for enjoyment.</p>
 </div>
+
 <div class="col-md-6">
-<p>Carol learned her craft and her songs from Kim Robertson, Jim Malcolm, Seumas Gagné and Sue Richards. She has won several Scottish Harp Society of America and Scottish Mòd competitions and does her own arrangements of the songs she performs. Her articles and arrangements have been published in Folk Harp Journal.</p>
+<p>Carol learned her craft and her songs from Kim Robertson, Jim Malcolm, Seumas Gagné and Sue Richards. She has studied Scots Gaelic at the Atlantic Gaelic Academy and Sabhal Mòr Ostaig on the Isle of Skye in Scotland. She has won several Scottish Harp Society of America and Scottish Mòd competitions and does her own arrangements of the songs she performs. She has published <a href="/shop">many books</a> of her compositions and arrangements and her articles and arrangements appear frequently in Folk Harp Journal.</p>
 </div>
 </div>

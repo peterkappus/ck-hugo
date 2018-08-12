@@ -9,9 +9,9 @@ aliases: ['performance.html','/performance']
 <div class="col-md-8">
 <h1>Celtic Harp Performances</h1>
 
-<p class="lead">Carol has a number of pre-written shows and can also custom create a performance to perfectly suit your event. Her repertoire includes many traditional Celtic tunes, much of the music of Robert Burns, and a wide variety of classic holiday favorites. Here are examples of some of Carol’s most popular shows.</p></div>
+<p class="lead">Carol has a number of pre-written shows and can also custom create a performance to perfectly suit your event. Her repertoire includes many traditional Celtic tunes, music of Robert Burns, and special St. Patrick's Day shows. Performances can also include tunes on the new <a href="/harps">electric DHC32 harp</a>. Here are examples of some of Carol’s most popular shows.</p></div>
 
-<div class="sidebar col-md-4"><h2>Contact</h2><a class="btn btn-primary" href="/contact">Contact Carol Now</a><br /><br /><p>Contact Carol to book a performance and bring the magic of live Celtic harp music your next event!</p></div></div>
+<div class="sidebar col-md-4"><h2>Contact</h2><a class="btn btn-primary" href="/contact">Contact Carol now</a><br /><br /><p>Contact Carol to book a performance and bring the magic of live Celtic harp music your next event!</p></div></div>
 
 <div class="row shows">
 
@@ -21,5 +21,5 @@ aliases: ['performance.html','/performance']
 
 <div class="col-md-4"><h3>Music of Scotland</h3><div class="showheader scotland"></div><p>Combining music and imagery, this show features the songs and stories of Scotland including songs of Robert Burns, traditional songs, and songs in Scots Gaelic.</p></div></div>
 
-<div class="row"><div class="col-md-12"><a class="btn btn-primary btn-large" href="/contact">Get in Touch!</a></div>
+<div class="row"><div class="col-md-12"><a class="btn btn-primary btn-large" href="/contact">Get in touch!</a></div>
 </div>

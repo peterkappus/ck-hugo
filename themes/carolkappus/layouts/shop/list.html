@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+<h1>{{.Title}}</h1>
+<p>{{.Content}}
+<br>
+<div class="row shop">
+  
+{{ range .Data.Pages}}
+  <div class="col-md-3">
+    <a href="{{ .RelPermalink }}">
+      <img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"/>
+    </a>
+    <div class="title">
+      <h4><a href="{{ .RelPermalink}}">{{ .Title}}</a></h4>
+    </div>
+  </div>
+{{end}}
+
+</div>
+
+{{ partial "footer.html" . }}

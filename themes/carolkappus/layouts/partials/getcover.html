@@ -1,0 +1,6 @@
+{{- $original := .Resources.GetMatch (printf "%s*" ("cover")) }}
+{{- if $original }}
+{{- .Scratch.Set "image" ($original.Resize "800x") }}
+{{- $image := .Scratch.Get "image" }}
+{{- $image.RelPermalink }}
+{{- end}}

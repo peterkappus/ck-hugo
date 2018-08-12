@@ -10,8 +10,11 @@
     
     {{ $style := resources.Get "sass/main.sass" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
-
-    <title>Carol Kappus | Celtic Harp</title>
+    {{ if .Title }}
+      <title> Carol Kappus | {{ .Title }} </title>
+    {{ else }}
+      <title> Carol Kappus | Celtic Harp </title>
+    {{ end }}
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
@@ -56,8 +59,4 @@
     </nav>
     <div class="container">
       <div class="row">
-        <div class="{{if (fileExists (printf "%s%s" .File.Dir  "/sidebar.md"))}}col-md-8{{end}} pl-0">
-          {{ if .Title}}
-            <h1>{{ .Title}}</h1>
-          {{- end}}
-          {{ .Content }}
+        

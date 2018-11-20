@@ -173,20 +173,29 @@ ul.related
     -moz-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75)
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75)
     
+
+$thickness: 10px
+
 .xmas
-  border: 5px solid red
+  border: $thickness solid red
   width: 100%
   padding: 1rem
-  
+  font-family: "IM Fell English", serif
+  font-size: 1.5rem
+  text-align: center
+  text-transform: uppercase
+  margin-bottom: 2rem
+
 .xmas:before
   background: none
-  border: 5px solid #090
+  border: $thickness solid #090
   content: ""
   display: block
   padding: 1rem
   position: absolute
-  top: 5px
-  left: 20px
-  right: 20px
-  bottom: 5px
+  top: $thickness
+  left: $thickness*2.5
+  right: $thickness*2.5
+  bottom: $thickness
   pointer-events: none
+  margin-bottom: 2rem

@@ -2,7 +2,12 @@
 New Hugo implementation of CarolKappus.com
 
 
-### Making paypal buttons:
+## Development
+```
+hugo server --disableFastRender --navigateToChanged --bind=0.0.0.0
+```
+
+## Making paypal buttons:
 - Login as mom
 - Go [here](https://www.paypal.com/bm/cgi-bin/webscr?cmd=_singleitem-intro-outside).
 - Scroll to the bottom and click "Create 'Buy Now' Button"

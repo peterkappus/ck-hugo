@@ -14,16 +14,7 @@
           i.text-warning Digital Download (PDF)
         {{- end }}
         h1 {{.Title}} 
-        
-        .card.bg-info.text-light
-          center
-            h3 ${{ string .Params.price }}
-            {{ if .Params.shipping }}
-            small + ${{ .Params.shipping  }} postage to USA & Canada
-            {{ else }}
-            small Emailed to you after purchase (no shipping)
-            {{- end }}
-            {{ partial "buybutton.html" . }}
+        = include partials/shop/buy_block.html .
         {{.Content}}
         {{ if (.Params.sample)}}
           .card.bg-light.sample
@@ -34,16 +25,6 @@
                   source src="{{.Params.sample}}" type="audio/mp4"
                   b Your browser does not support the audio element.
         {{- end}}
-        .card.bg-info.text-light
-          center
-            h3 ${{ string .Params.price }}
-            {{ if .Params.shipping }}
-            small + ${{ .Params.shipping  }} postage to USA & Canada
-            {{ else }}
-            small Emailed to you after purchase (no shipping)
-            {{- end }}
-            {{ partial "buybutton.html" . }}
-        .show-small
-          = include partials/relateditems.html .
+        = include partials/shop/buy_block.html .
 
 {{ partial "footer.html" . }}

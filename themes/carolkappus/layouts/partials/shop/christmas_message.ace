@@ -1,0 +1,5 @@
+div style="margin: 2rem; background: #adf"
+  center
+    b style="color: #000"  Please note: Orders for physical books placed between the 10th and 28th of December will not be sent until the 30th of December at the earliest. 
+    br
+    b style="font-size: 1.2rem; color: #f33" {{ emojify ":christmas_tree:"}} Merry Christmas! {{ emojify ":christmas_tree:"}}

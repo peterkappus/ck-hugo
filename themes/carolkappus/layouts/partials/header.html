@@ -1,13 +1,12 @@
+{{ $freebie := false }}
 <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
     {{ $style := resources.Get "sass/main.sass" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     {{ if .Title }}
@@ -59,8 +58,11 @@
     </nav>
     <div class="container">
       <div class="row">
+        <!-- turn this into a true statement if you want to run the block below -->
+        {{ if eq 5 1}} 
         <div class="col-sm-12">
         <div class="xmas">
           <!--img src="/imgs/xmas-bells.png" style="width: 80px"/--> Merry Christmas, harper friends! <br><a href="https://bit.ly/2Bmdksi" target="_blank">Click here to Download my free Christmas gift to you!</a>
         </div>
       </div>
+      {{ end }}

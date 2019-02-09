@@ -25,4 +25,4 @@ draft: false
 </div>
 
 <div class="row"><div class="col" style="margin-top: 1rem">
-<center><a class="btn btn-primary btn-large" href="/music">Visit the music page to hear more!</a><br /><br /></center>
+<center><a class="btn btn-primary btn-large" href="/music">Visit the music page to hear more!</a><br /><br /></center></div></div>

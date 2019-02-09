@@ -27,4 +27,4 @@ aliases: ['performance.html','/performance']
 
 </div>
 
-<div class="row"><div class="col-md-12"><a class="btn btn-primary btn-large" href="/contact">Get in touch!</a></div>
+<div class="row"><div class="col-md-12"><a class="btn btn-primary btn-large" href="/contact">Get in touch!</a></div></div>

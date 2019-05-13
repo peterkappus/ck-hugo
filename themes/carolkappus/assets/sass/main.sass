@@ -186,8 +186,9 @@ ul.related
 
 $thickness: 10px
 
-.xmas
-  border: $thickness solid red
+
+.generic-banner
+  border: $thickness solid #009
   width: 100%
   padding: 1rem
   font-family: "IM Fell English", serif
@@ -196,9 +197,12 @@ $thickness: 10px
   text-transform: uppercase
   margin-bottom: 2rem
 
-.xmas:before
+.xmas 
+  border: $thickness solid red
+  
+.generic-banner:before
   background: none
-  border: $thickness solid #090
+  border: $thickness solid #1aa9ad
   content: ""
   display: block
   padding: 1rem
@@ -209,3 +213,6 @@ $thickness: 10px
   bottom: $thickness
   pointer-events: none
   margin-bottom: 2rem
+
+.xmas:before
+  border: $thickness solid #090

@@ -7,6 +7,29 @@ New Hugo implementation of CarolKappus.com
 hugo server --disableFastRender --navigateToChanged --bind=0.0.0.0
 ```
 
+## Making new books
+
+* Create the new folder & index document
+* `hugo new shop/book-title-goes-here/index.md`
+* Add the cover to the folder as `cover.jpg`
+* Add (and then customise) this front-matter:
+
+```
+---
+title: The Parting Glass - Three Songs of Farewell
+date: 2018-08-11T21:32:18-04:00
+draft: false
+price: "10.00"
+shipping: "3.50"
+buy_button:
+---
+Description goes here...
+```
+Paste the `buy_button:` code into the content file (see instructions below).
+
+Want to add a sample?
+add `sample: /shop/summer-dreamin/sample.m4a` to the front-matter.
+
 ## Making paypal buttons:
 - Login as mom
 - Go [here](https://www.paypal.com/bm/cgi-bin/webscr?cmd=_singleitem-intro-outside).

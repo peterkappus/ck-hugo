@@ -1,0 +1,6 @@
+.signup_banner
+  .container
+    p
+      b New!
+      | &nbsp; Join the mailing list and receive a FREE PDF of the music for my new song Sedona Sunrise! 
+      a href="https://tinyletter.com/carolkappus" target="_blank" Signup Here!

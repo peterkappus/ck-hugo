@@ -1,41 +1,43 @@
 {{ partial "header.html" . }}
-  .col-md-12.shop
-    h1 style="width:100%;" {{.Title}} 
-    p {{.Content }}
-    .row
-      .col-md-4.shop.show-small
-        .card.bg-secondary.text-white
-          .card-body
-            h2 Digital Downloads
-            p These pieces are distributed as PDFs which will be emailed to you after completing your order.
-            .row    
-              {{ range where .Data.Pages "Params.digital" "true" }}
-                .col-md-12 
-                  = include partials/shopitem.html .
-              {{ end }}
-              
-      .col-md-8.shop
-        h2 Printed Books
-        p These professionally printed books feature plastic comb-binding so they will lay flat on your music stand.
-        .row.shop
-          {{ range where .Data.Pages "Params.digital" "!=" "true"}}
+.container
+  .row
+    .col-md-12.shop
+      h1 style="width:100%;" {{.Title}} 
+      p {{.Content }}
+      .row
+        .col-md-4.shop.show-small
+          .card.bg-secondary.text-white
+            .card-body
+              h2 Digital Downloads
+              p These pieces are distributed as PDFs which will be emailed to you after completing your order.
+              .row    
+                {{ range where .Data.Pages "Params.digital" "true" }}
+                  .col-md-12 
+                    = include partials/shopitem.html .
+                {{ end }}
+                
+        .col-md-8.shop
+          h2 Printed Books
+          p These professionally printed books feature plastic comb-binding so they will lay flat on your music stand.
+          .row.shop
+            {{ range where .Data.Pages "Params.digital" "!=" "true"}}
+              .col-md-6
+                = include partials/shopitem.html .
+            {{end}}
             .col-md-6
-              = include partials/shopitem.html .
-          {{end}}
-          .col-md-6
-            .card.border.border-info style="margin-top: 5rem"
-              .card-body
-                h4 style="width: 100%; display: block; text-align: center; padding-top: 1rem" Not finding what you're looking for? <a href="/contact">Get in touch.</a>      
-          
-      .col-md-4.shop.hide-small
-        .card.bg-secondary.text-white
-          .card-body
-            h2 Digital Downloads
-            p These pieces are distributed as PDFs which will be emailed to you after completing your order.
-            .row    
-              {{ range where .Data.Pages "Params.digital" "true" }}
-                .col-md-12 
-                  = include partials/shopitem.html .
-              {{ end }}
-  
+              .card.border.border-info style="margin-top: 5rem"
+                .card-body
+                  h4 style="width: 100%; display: block; text-align: center; padding-top: 1rem" Not finding what you're looking for? <a href="/contact">Get in touch.</a>      
+            
+        .col-md-4.shop.hide-small
+          .card.bg-secondary.text-white
+            .card-body
+              h2 Digital Downloads
+              p These pieces are distributed as PDFs which will be emailed to you after completing your order.
+              .row    
+                {{ range where .Data.Pages "Params.digital" "true" }}
+                  .col-md-12 
+                    = include partials/shopitem.html .
+                {{ end }}
+    
 {{ partial "footer.html" . }}

@@ -1,37 +1,39 @@
 {{ partial "header.html" . }}
-  .col-md-12
-    h3 style="border: none"
-      a style="color: black" href="/shop" &laquo; Return to the shop
-    .row.shop
-      .col-md-4
-        img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"
-        {{ partial "buybutton.html" . }}
-        .hide-small
-          = include partials/relateditems.html .
+.container
+  .row
+    .col-md-12
+      h3 style="border: none"
+        a style="color: black" href="/shop" &laquo; Return to the shop
+      .row.shop
+        .col-md-4
+          img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"
+          {{ partial "buybutton.html" . }}
+          .hide-small
+            = include partials/relateditems.html .
 
-      .col-md-8
-        {{if (.Params.digital)}}
-          i.text-warning Digital Download (PDF)
-        {{- end }}
-        h1 {{.Title}} 
-        = include partials/shop/buy_block.html .
-        {{.Content}}
-        {{ if (.Params.sample)}}
-          .card.bg-light.sample
-            .card-body
-              center
-                h2 Listen to a sample
-                {{ if (.Params.sample_description)}}
-                  p {{.Params.sample_description}}
-                {{- end}}
-                audio controls=""
-                  source src="{{.Params.sample}}" type="audio/mp4"
-                  b Your browser does not support the audio element.
-                {{ if (.Params.sample_img)}}
-                  p style="margin:2rem 0" Here's a page to show the level of difficulty:
-                  img src="{{.Params.sample_img }}" style="width:100%;"
-                {{- end}}
-        {{- end}}
-        = include partials/shop/buy_block.html .
+        .col-md-8
+          {{if (.Params.digital)}}
+            i.text-warning Digital Download (PDF)
+          {{- end }}
+          h1 {{.Title}} 
+          = include partials/shop/buy_block.html .
+          {{.Content}}
+          {{ if (.Params.sample)}}
+            .card.bg-light.sample
+              .card-body
+                center
+                  h2 Listen to a sample
+                  {{ if (.Params.sample_description)}}
+                    p {{.Params.sample_description}}
+                  {{- end}}
+                  audio controls=""
+                    source src="{{.Params.sample}}" type="audio/mp4"
+                    b Your browser does not support the audio element.
+                  {{ if (.Params.sample_img)}}
+                    p style="margin:2rem 0" Here's a page to show the level of difficulty:
+                    img src="{{.Params.sample_img }}" style="width:100%;"
+                  {{- end}}
+          {{- end}}
+          = include partials/shop/buy_block.html .
 
 {{ partial "footer.html" . }}

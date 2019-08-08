@@ -24,7 +24,7 @@ html lang="en"
             li.nav-item
               a.nav-link href="/about"  About
             li.nav-item
-              a.nav-link href="/shop"  Shop
+              a.nav-link.shop_nav href="/shop"  Shop
             li.nav-item
               a.nav-link href="/music-videos"  Music & Videos
             li.nav-item

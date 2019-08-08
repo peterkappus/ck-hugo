@@ -21,6 +21,7 @@ date: 2018-08-11T21:32:18-04:00
 draft: false
 price: "10.00"
 shipping: "3.50"
+digital: "false"
 buy_button:
 ---
 Description goes here...

@@ -8,5 +8,3 @@
     {{- end }}
     {{ partial "buybutton.html" . }}
     / = include partials/shop/christmas_message.html .
-.show-small
-  = include partials/relateditems.html .

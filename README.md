@@ -7,7 +7,7 @@ New Hugo implementation of CarolKappus.com
 hugo server --disableFastRender --navigateToChanged --bind=0.0.0.0
 ```
 
-## Making new books
+## Making new books & music to sell
 
 * Create the new folder & index document
 * `hugo new shop/book-title-goes-here/index.md`

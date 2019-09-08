@@ -25,6 +25,8 @@
                   h2 Listen to a sample
                   {{ if (.Params.sample_description)}}
                     p {{.Params.sample_description}}
+                  {{ else }}
+                    p Hear a sample below:
                   {{- end}}
                   audio controls=""
                     source src="{{.Params.sample}}" type="audio/mp4"

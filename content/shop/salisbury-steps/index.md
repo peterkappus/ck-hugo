@@ -10,6 +10,8 @@ buy_button: -----BEGIN PKCS7-----MIIHVwYJKoZIhvcNAQcEoIIHSDCCB0QCAQExggEwMIIBLAI
 
 {{< youtube zByr4VeieM8 >}}
 
+<p style="margin-top: 2rem; clear:both">
+<img src="/shop/salisbury-steps/score-sample.jpg" align="right" style="width: 50%; margin-left: 1rem">
 This piece was written on the front steps to the beautiful cathedral in Salisbury, England. It was a beautiful summer evening and dusk was falling.  The cathedral was closed but inside, the organ repair men were hard at work.  Occasionally I would hear them try out the tuning by playing a window-rattling loud passage from a famous organ piece.
-
-<img src="/shop/salisbury-steps/sample.png">
+</p>
+<br style="clear:both">

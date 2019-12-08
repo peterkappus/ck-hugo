@@ -1,5 +1,16 @@
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
   <input type="hidden" name="cmd" value="_s-xclick"/>
+  {{- if .Params.show_buying_options }}
+  
+  <div>
+  <input type="hidden" name="on0" value="Select digital or print copy"><small style="color:#ccc">Select digital or print copy</small>
+  <br>
+  <select name="os0">
+        <option value="Digital Download">Digital Download $10.00 USD</option>
+        <option value="Physical Book plus shipping">Physical Book plus shipping $15.00 USD</option>
+</select>
+</div>
+{{- end}}
   <input type="hidden" name="encrypted" value="{{ .Params.buy_button }}"/>
   <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
   <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>

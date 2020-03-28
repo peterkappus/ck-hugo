@@ -1,5 +1,6 @@
 
 {{ $list := getCSV "," "content/calendar/export.csv" }}
+
 {{ range $i, $r := $list }}
 {{ $title := index $r 3 }}
 {{ $date := index $r 0 }}

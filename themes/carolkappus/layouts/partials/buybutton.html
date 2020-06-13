@@ -1,13 +1,12 @@
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">  
   <input type="hidden" name="cmd" value="_s-xclick"/>
-  {{- if .Params.show_buying_options }}
-  
+  {{- if and (.Params.physical_price) (.Params.digital_price )}}
   <div>
   <input type="hidden" name="on0" value="Select digital or print copy"><small style="color:#ccc">Select digital or print copy</small>
   <br>
   <select name="os0">
-        <option value="Digital Download">Digital Download $10.00 USD</option>
-        <option value="Physical Book plus shipping">Physical Book plus shipping $15.00 USD</option>
+        <option value="Digital copy">Digital Download ${{ lang.NumFmt 2 .Params.digital_price}} USD</option>
+        <option value="Physical book plus shipping">Physical book plus shipping to USA ${{lang.NumFmt 2 .Params.physical_price}} USD</option>
 </select>
 </div>
 {{- end}}

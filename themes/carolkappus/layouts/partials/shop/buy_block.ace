@@ -1,9 +1,10 @@
 .card.bg-info.text-light
   center
-    h3 ${{ string .Params.price }}
+    h3 ${{ lang.NumFmt 2 .Params.price }}
     {{ if .Params.shipping }}
-    small + ${{ .Params.shipping  }} postage to USA & Canada
-    {{ else }}
+    small + ${{ .Params.shipping  }} postage to the USA
+    {{- end }}
+    {{ if .Params.digital}}
     small Emailed to you after purchase (no shipping)
     {{- end }}
     {{ partial "buybutton.html" . }}

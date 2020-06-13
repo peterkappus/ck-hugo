@@ -12,33 +12,44 @@
             = include partials/relateditems.html .
 
         .col-md-8
-          {{if (.Params.digital)}}
-            i.text-warning Digital Download (PDF)
-          {{- end }}
-          h1 {{.Title}} 
-          = include partials/shop/buy_block.html .
-          {{.Content}}
-          {{ if (.Params.sample)}}
-            .card.bg-light.sample
-              .card-body
-                center
-                  h2 Listen to a sample
-                  {{ if (.Params.sample_description)}}
-                    p {{.Params.sample_description}}
-                  {{ else }}
-                    p Hear a sample below:
-                  {{- end}}
-                  audio controls=""
-                    source src="{{.Params.sample}}" type="audio/mp4"
-                    b Your browser does not support the audio element.
-                  {{ if (.Params.sample_img)}}
-                    p style="margin:2rem 0" Here's a page to show the level of difficulty:
+          .row
+            .col-sm-12
+              {{if (.Params.digital)}}
+                i.text-warning Digital Download (PDF)
+              {{- end }}
+              h1 {{.Title}} 
+              = include partials/shop/buy_block.html .
+              {{.Content}}
+          {{  if (or (isset .Params "sample_img") (isset .Params "sample_cover")) }}
+            .row  
+              {{ if (.Params.sample) }}
+                div class="{{ cond (or (isset .Params "sample_img") (isset .Params "sample_cover")) "col-md-6" "col-md-12" }}"
+                  .card.bg-light.sample 
+                    .card-body
+                      center
+                        h2 Listen to a sample
+                        {{ if (.Params.sample_description)}}
+                          p {{.Params.sample_description}}
+                        {{ else }}
+                          p Hear a sample below:
+                        {{- end}}
+                        audio controls=""
+                          source src="{{.Params.sample}}" type="audio/mp4"
+                          b Your browser does not support the audio element.
+              {{- end}}
+                        
+              {{ if (.Params.sample_img) }}
+              div class="{{ cond (isset .Params "sample") "col-md-6" "col-md-12" }}"
+                .sample 
+                  center
                     img src="{{.Params.sample_img }}" style="width:100%;"
-                  {{- end}}
+              {{- end}}
           {{- end}}
-          = include partials/shop/buy_block.html .
-          .show-small
-            = include partials/relateditems.html .
+          .row
+            .col-sm-12
+              = include partials/shop/buy_block.html .
+            .show-small
+              = include partials/relateditems.html .
 
 
 {{ partial "footer.html" . }}

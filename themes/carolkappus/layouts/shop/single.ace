@@ -13,17 +13,17 @@
 
         .col-md-8
           .row
-            .col-sm-12
+            .col-sm-12 style="margin-bottom: 1rem"
               {{if (.Params.digital)}}
                 i.text-warning Digital Download (PDF)
               {{- end }}
               h1 {{.Title}} 
               = include partials/shop/buy_block.html .
               {{.Content}}
-          {{  if (or (isset .Params "sample_img") (isset .Params "sample_cover")) }}
+          {{  if (or (isset .Params "sample_img") (isset .Params "sample")) }}
             .row  
               {{ if (.Params.sample) }}
-                div class="{{ cond (or (isset .Params "sample_img") (isset .Params "sample_cover")) "col-md-6" "col-md-12" }}"
+                div class="{{ cond (or (isset .Params "sample_img") (isset .Params "sample")) "col-md-6" "col-md-12" }}"
                   .card.bg-light.sample 
                     .card-body
                       center

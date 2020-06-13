@@ -14,4 +14,3 @@ buy_button: -----BEGIN PKCS7-----MIIHVwYJKoZIhvcNAQcEoIIHSDCCB0QCAQExggEwMIIBLAI
 <p style="margin-top: 2rem; clear:both">
 This piece was written on the front steps to the beautiful cathedral in Salisbury, England. It was a beautiful summer evening and dusk was falling.  The cathedral was closed but inside, the organ repair men were hard at work.  Occasionally I would hear them try out the tuning by playing a window-rattling loud passage from a famous organ piece.
 </p>
-<br style="clear:both">

@@ -48,8 +48,8 @@
           .row
             .col-sm-12
               = include partials/shop/buy_block.html .
-            .show-small
-              = include partials/relateditems.html .
+              .show-small
+                = include partials/relateditems.html .
 
 
 {{ partial "footer.html" . }}

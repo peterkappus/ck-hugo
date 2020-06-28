@@ -21,7 +21,7 @@
       .row
         .col-md-12.shop
           h2 Printed Books
-          p These professionally printed books feature plastic comb-binding so they will lay flat on your music stand. NOTE: Due to COVID-19, books are not currently being mailed out. Your order will be delivered as a PDF and a physical book will be shipped later when it is safe to do so.
+          p These professionally printed books feature plastic comb-binding so they will lay flat on your music stand. <!--NOTE: Due to COVID-19, books are not currently being mailed out. Your order will be delivered as a PDF and a physical book will be shipped later when it is safe to do so.-->
           .row.shop
             {{ range where .Data.Pages "Params.digital" "!=" "true" }}
               .col-md-3 

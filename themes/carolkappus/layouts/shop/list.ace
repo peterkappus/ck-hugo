@@ -6,7 +6,7 @@
       p {{.Content }}
       .row
         .col-md-12.shop
-          h2 Digital Downloads
+          h2 Digital Singles
           p These pieces are distributed as PDFs which will be emailed to you after completing your order.
           .row.shop
             {{ range where .Data.Pages "Params.digital" true}}
@@ -16,7 +16,7 @@
             .col-md-3
               .card.border.border-info style="margin-top: 5rem"
                 .card-body
-                  h4 style="width: 100%; display: block; text-align: center; padding-top: 1rem" Not finding what you're looking for? <a href="/contact">Get in touch.</a>      
+                  h4 style="width: 100%; display: block; text-align: center; padding-top: 1rem" Looking for more? <a href="/contact">Get in touch.</a>      
             
       .row
         .col-md-12.shop

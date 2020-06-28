@@ -49,6 +49,7 @@ add `sample: /shop/[name]/[name].m4a` to the front-matter.
 - Scroll to the bottom and click "Create 'Buy Now' Button"
 - Choose button type "Buy Now"
 - Enter book name for product name
+- Enter "Choose type" for Dropdown name
 - For digital & print books:
   - Add options use the exact text below for the option names:
     - "Digital copy"

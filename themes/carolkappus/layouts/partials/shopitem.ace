@@ -1,7 +1,8 @@
 a href="{{ .RelPermalink }}"
   img class="cover lazy" src="{{trim (partial "getcover.html" .) "\n" }}" style="width:100%"
 .title
-  h4
+  h5
     a href="{{ .RelPermalink}}" {{ .Title }}
-.float-right
-  a.btn.btn-sm.bg-warning.text-white href="{{ .RelPermalink}}" Learn more &raquo;
+/
+  .float-right
+    a.btn.btn-sm.bg-warning.text-white href="{{ .RelPermalink}}" Learn more &raquo;

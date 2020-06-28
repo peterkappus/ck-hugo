@@ -17,10 +17,11 @@ Each book/piece should contain:
 2. An audio sample in "m4a" format. The name should be all lower case with dashes instead of spaces (e.g. 'the-water-is-wide.m4a')
 3. A sample of the music (at least 800px and in JPG form) named the same as the audio (but with a .jpg extension)
 
+```
 
-* Create the new folder & index document
+* Create the new folder & index document:
 * `hugo new shop/book-title-goes-here/index.md`
-* Add the cover to the folder as `cover.jpg`
+* Cover & sample usually arrive as PDFs. Convert them to JPGs like so:
 * Convert the sample PDF to a jpg:
   - `convert -density 500 -quality 80 -background White -layers flatten -resize 800x [name].pdf [name].jpg`
 * Add (and then customise) this front-matter:

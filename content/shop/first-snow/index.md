@@ -1,7 +1,7 @@
 ---
 title: First Snow
 price: "3.00"
-digital: "true"
+digital: true
 date: 2019-11-10T19:12:47Z
 draft: false
 sample: /shop/first-snow/first-snow.m4a

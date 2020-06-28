@@ -9,7 +9,7 @@
           h2 Digital Downloads
           p These pieces are distributed as PDFs which will be emailed to you after completing your order.
           .row.shop
-            {{ range where .Data.Pages "Params.digital" "true"}}
+            {{ range where .Data.Pages "Params.digital" true}}
               .col-md-3
                 = include partials/shopitem.html .
             {{end}}

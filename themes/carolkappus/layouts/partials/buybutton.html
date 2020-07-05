@@ -1,16 +1,28 @@
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">  
-  <input type="hidden" name="cmd" value="_s-xclick"/>
+  <input type="hidden" name="cmd" value="_xclick">
+  <input type="hidden" name="business" value="YFVNSYTVPUWVL">
+  <input type="hidden" name="lc" value="US">
+  <input type="hidden" name="item_name" value="{{ .Params.title }}">
+  <input type="hidden" name="button_subtype" value="services">
+  <input type="hidden" name="currency_code" value="USD">
+  <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
   {{- if and (.Params.physical_price) (.Params.digital_price )}}
   <div>
   <input type="hidden" name="on0" value="Select digital or print copy"><small style="color:#ccc">Select digital or print copy</small>
   <br>
   <select name="os0">
-        <option value="Digital copy">Digital Download ${{ lang.NumFmt 2 .Params.digital_price}} USD</option>
+        <option value="{{ if (.Params.digital_option_label)}}{{ (.Params.digital_option_label)}}{{else}}Digital download{{- end}}">Digital Download ${{ lang.NumFmt 2 .Params.digital_price}} USD</option>
         <option value="Physical book plus shipping">Physical book + USA shipping ${{lang.NumFmt 2 .Params.physical_price}} USD</option>
 </select>
 </div>
+<input type="hidden" name="option_select0" value="Digital download">
+<input type="hidden" name="option_amount0" value="{{ lang.NumFmt 2 .Params.digital_price}}">
+<input type="hidden" name="option_select1" value="Physical book plus shipping">
+<input type="hidden" name="option_amount1" value="{{lang.NumFmt 2 .Params.physical_price}}">
+<input type="hidden" name="option_index" value="0">
+{{- else}}
+<input type="hidden" name="amount" value="{{lang.NumFmt 2 .Params.display_price}}">
 {{- end}}
-  <input type="hidden" name="encrypted" value="{{ .Params.buy_button }}"/>
   <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
   <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
 </form>

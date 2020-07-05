@@ -1,6 +1,6 @@
 .card.bg-info.text-light
   center
-    h3 ${{ lang.NumFmt 2 .Params.price }}
+    h3 ${{ lang.NumFmt 2 .Params.display_price }}
     {{ if .Params.shipping }}
     small + ${{ .Params.shipping  }} postage to the USA
     {{- end }}

@@ -6,7 +6,7 @@ draft: false
 digital_price: 20
 physical_price: 25
 #for digital only
-display_price: 3
+display_price: 20
 digital: false
 sample_img_1: /shop/gentle-tunes-for-healing-harps/karas-song.jpg
 sample_audio_1: /shop/gentle-tunes-for-healing-harps/karas-song.m4a

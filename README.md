@@ -3,12 +3,19 @@ New Hugo implementation of CarolKappus.com
 
 
 ## Development
+
+### Using Docker
+The last version of Hugo which supports Ace template is 0.50. To support sass compilation, we need the "extended" version of hugo so `klakegg/hugo:0.50-ext`
+
+```
+docker run --rm -it -v "$(pwd)":/src -p 1313:1313 klakegg/hugo:0.50-ext server --disableFastRender --navigateToChanged --bind=0.0.0.0 --gc --noHTTPCache
+open http://localhost:1313
+```
+
+### Running hugo locally
 ```
 hugo server --disableFastRender --navigateToChanged --bind=0.0.0.0
 ```
-
-## Dev setup
-- Install Hugo (version < 0.62 to support ACE templates)
 
 
 ## Making new books & music to sell

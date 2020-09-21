@@ -8,6 +8,9 @@ aliases: [music.html, music]
 
 <p class="lead">A selection of music and videos featuring Carol Kappus on Celtic Harp. Check out her <a href="https://www.youtube.com/channel/UC5qj9r5ziOtseNLmw26zm0A" target="_blank">YouTube Channel</a> for more.</p>
 
+## A virtual visit to Carol's Music Booth
+Here's what you'd see if you visited Carol's music booth at the [Somerset Folk Harp Festival](https://www.somersetharpfest.com/).
+{{< vimeo 414351022 >}}
 
 ### Music of Ireland - Land of Legends (excerpt)
 {{< youtube 8-iFqYq-kcs >}}

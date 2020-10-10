@@ -9,7 +9,6 @@ sidebar_file: press/sidebar.md
 ---
 
 <p class="lead"> Here you can find press articles about Carol. If you'd like to feature Carol in your own publication please <a href="/contact">get in touch</a>.</p>
-
 ---
 
 ## Celtic collection: Harpers from across region gather for workshop, concert in Cass County

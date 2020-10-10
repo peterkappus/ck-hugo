@@ -10,7 +10,6 @@ display_price: 20
 digital: false
 sample_img_1: /shop/gentle-tunes-for-healing-harps/karas-song.jpg
 sample_audio_1: /shop/gentle-tunes-for-healing-harps/karas-song.m4a
-buy_button: -----BEGIN PKCS7-----.... add code here...-----END PKCS7-----
 ---
 25 beautiful new tunes and arrangements perfect for therapy harpers and anyone who just enjoys gentle, soothing tunes. 
 

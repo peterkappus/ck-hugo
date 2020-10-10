@@ -3,7 +3,6 @@ title: Music & Videos
 date: 2018-08-07T16:04:19-04:00
 draft: false
 aliases: [music.html, music]
-
 ---
 
 <p class="lead">A selection of music and videos featuring Carol Kappus on Celtic Harp. Check out her <a href="https://www.youtube.com/channel/UC5qj9r5ziOtseNLmw26zm0A" target="_blank">YouTube Channel</a> for more.</p>

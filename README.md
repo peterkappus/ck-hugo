@@ -46,7 +46,6 @@ draft: false
 display_price: 10
 shipping: 3.50
 digital: "false"
-buy_button: (see below)
 ---
 Description goes here...
 ```
@@ -56,27 +55,8 @@ Want to add a sample?
 add `sample_audio_1: /shop/[name]/[name].m4a` to the front-matter.
 
 ## Making paypal buttons:
-- Login as mom
-- Go [here](https://www.paypal.com/bm/cgi-bin/webscr?cmd=_singleitem-intro-outside).
-- Scroll to the bottom and click "Create 'Buy Now' Button"
-- Choose button type "Buy Now"
-- For "Item Name" enter the book name (e.g. "Sundance")
-- NOTE: please use the *exact* labels below for the various options
-- Tick the box for "Add dropdown menu with price/option"
-- for "Name of dropdown" enter "**Select digital or print copy**"
-- For digital & print books:
-  - Add the following option names:
-    - "**Digital copy**"
-    - "**Physical book plus shipping**"
-    - _REMOVE_ the 3rd option
-  - Prices can be whatever you want
-- For digital only:
-  - Add price into price field (no additional options)
-- Click "Create Button"
-- Select "Use my secure ID"
-- Copy the embed code
-- Paste it into a blank document/email and remove everything except the code starting "---BEGIN PKCS7---" up to "---END PKCS7---"
-- Use this for the "buy_button:" field in the front-matter of the book page
+NOTE: It is no longer necessary to create a custom buy button for each piece. Instead we pass the name and price as parameters to a generic button.
+FYI, buttons are created [here](https://www.paypal.com/bm/cgi-bin/webscr?cmd=_singleitem-intro-outside).
 
 
 ## Deployment

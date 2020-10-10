@@ -10,7 +10,7 @@ display_price: 3
 digital: false
 sample_img_1: /shop/{{ .Name }}/sample.jpg
 sample_audio_1: /shop/{{ .Name }}/sample.m4a
-buy_button: -----BEGIN PKCS7-----.... add code here...-----END PKCS7-----
+
 ---
 
 ## Subheading goes here...

@@ -37,6 +37,13 @@ current_nav: about
 <p>Carol has published sheet music for a wide range of her original songs and arrangements of traditional Scottish tunes and songs in Scots Gaelic. These are now available to buy online as books and instant digital PDF downloads.</p>
 
 <a class="btn btn-primary btn-lg" href="/store">Visit the shop</a>
-</div>
+
+
+<h2 style="padding-top: 2rem">Relaxation for Harpers</h2>
+<p>New! A <a href="/relaxation-exercise-for-harpers">guided meditation</a> for relaxation of the body and mind.  About 5 minutes in length.
+ </p>
+
+ </div>
+
 
 </div>

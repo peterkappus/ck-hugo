@@ -5,7 +5,7 @@
     small + ${{ .Params.shipping  }} postage to the USA
     {{- end }}
     {{ if .Params.digital}}
-    small Emailed to you after purchase (no shipping)
+    small Carol will personally email your PDF after purchase (no shipping)
     {{- end }}
     {{ partial "buybutton.html" . }}
     / = include partials/shop/christmas_message.html .

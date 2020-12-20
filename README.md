@@ -20,13 +20,6 @@ hugo server --disableFastRender --navigateToChanged --bind=0.0.0.0
 
 ## Making new books & music to sell
 
-### Before starting, gather the components (probably via an email from mom)
-1. A cover image called "cover.jpg" (at least 800px wide and in JPG format)
-2. An audio sample in "m4a" format. The name should be all lower case with dashes instead of spaces (e.g. 'the-water-is-wide.m4a')
-3. A sample of the music (at least 800px and in JPG form) named the same as the audio (but with a .jpg extension). See below for how to make a JPG cover from a PDF. 
-4. The PayPal button code (See below)
-
-### Ready to assemble
 * Create the new folder & index document:
 `hugo new shop/book-title-goes-here/index.md`
 * inside the folder add the following:
@@ -46,11 +39,11 @@ draft: false
 display_price: 10
 shipping: 3.50
 digital: "false"
+# adding a sample?
+# sample_audio_1: /shop/[name]/[name].m4a
 ---
 Description goes here...
 ```
-Paste the `buy_button:` code into the content file (see instructions below).
-
 Want to add a sample?
 add `sample_audio_1: /shop/[name]/[name].m4a` to the front-matter.
 

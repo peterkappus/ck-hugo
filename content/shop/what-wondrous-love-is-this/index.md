@@ -12,6 +12,4 @@ sample_audio_1: /shop/what-wondrous-love-is-this/sample.m4a
 
 ---
 
-## Subheading goes here...
-
-Short description of the piece goes here.
+A beginner level arrangement of this beautiful tune for the Easter season. 

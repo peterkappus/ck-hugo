@@ -21,7 +21,7 @@ hugo server --disableFastRender --navigateToChanged --bind=0.0.0.0
 ## Making new books & music to sell
 
 * Create the new folder & index document:
-`hugo new shop/book-title-goes-here/index.md`
+* `docker run --rm -it -v "$(pwd)":/srcklakegg/hugo:0.50-ext new shop/<book-title-goes-here>/index.md`
 * inside the folder add the following:
 ** cover.pdf
 ** sample.m4a
@@ -30,20 +30,25 @@ hugo server --disableFastRender --navigateToChanged --bind=0.0.0.0
 * Convert the sample PDF to a jpg:
   - `convert -density 500 -quality 80 -background White -layers flatten -resize 800x [name].pdf [name].jpg`
   
-
+  
 ```
 ---
-title: The Parting Glass - Three Songs of Farewell
-date: 2018-08-11T21:32:18-04:00
+title: What Wondrous Love Is This
+date: 2021-03-03T19:54:37Z
 draft: false
-display_price: 10
+#if this can be bought as both physical and digital
+digital_price: 3
+physical_price: 3
 shipping: 3.50
-digital: "false"
-# adding a sample?
-# sample_audio_1: /shop/[name]/[name].m4a
+#for digital only
+display_price: 3
+digital: true
+sample_img_1: /shop/what-wondrous-love-is-this/sample.jpg
+sample_audio_1: /shop/what-wondrous-love-is-this/sample.m4a
 ---
 Description goes here...
 ```
+
 Want to add a sample?
 add `sample_audio_1: /shop/[name]/[name].m4a` to the front-matter.
 

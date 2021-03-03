@@ -2,3 +2,4 @@ resources/_gen*
 *DS_Store
 *.csv
 public
+secrets.env

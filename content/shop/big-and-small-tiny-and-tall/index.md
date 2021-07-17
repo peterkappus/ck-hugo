@@ -1,6 +1,6 @@
 ---
 title: Big and Small Tiny and Tall
-subtitle: Dual Arrangments for Big and Small Celtic Harps
+subtitle: Dual Arrangements for Big and Small Celtic Harps
 date: 2021-07-17T18:29:43Z
 draft: false
 #if this can be bought as both physical and digital
@@ -29,3 +29,6 @@ These arrangements are in pairs. The first one is always for the small lap harp 
 * The Song of the Water Kelpie
 * The Star Spangled Banner
 * What Wondrous Love Is This
+
+<!--script src="https://gumroad.com/js/gumroad.js"></script>
+<a class="gumroad-button" href="https://gumroad.com/l/nXXmb">Buy it now</a-->

@@ -5,4 +5,4 @@ draft: false
 aliases: ['store.html','/buy','buy','store']
 ---
 
-Now you can buy sheet music of Carol's original compositions and arrangements of traditional tunes. Many are available as PDFs for instant downloads once checkout is complete.
+Now you can buy sheet music of Carol's original compositions and arrangements of traditional tunes. Carol will personally send you the PDFs as soon as possible after checkout is complete.

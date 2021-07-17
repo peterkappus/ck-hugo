@@ -21,7 +21,7 @@ hugo server --disableFastRender --navigateToChanged --bind=0.0.0.0
 ## Making new books & music to sell
 
 * Create the new folder & index document:
-* `docker run --rm -it -v "$(pwd)":/srcklakegg/hugo:0.50-ext new shop/<book-title-goes-here>/index.md`
+* `docker run --rm -it -v "$(pwd)":/src klakegg/hugo:0.50-ext new shop/<book-title-goes-here>/index.md`
 * inside the folder add the following:
 ** cover.pdf
 ** sample.m4a

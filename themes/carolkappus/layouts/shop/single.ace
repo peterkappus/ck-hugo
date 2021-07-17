@@ -18,6 +18,9 @@
                 i.text-warning Digital Download (PDF)
               {{- end }}
               h1 {{.Title}} 
+              {{if (.Params.subtitle) }}
+              h2 {{ .Params.subtitle }}
+              {{- end }}
               = include partials/shop/buy_block.html .
               {{.Content}}
           {{  if (or (isset .Params "sample_img_1") (isset .Params "sample_audio_1")) }}

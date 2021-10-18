@@ -46,3 +46,17 @@ Winter 2019 edition of Folk Harp Journal, or you can [buy the write-up of the sy
 I look forward to getting to know more of you in person and sharing this little system with
 you which I hope will help you move toward your harping goals of solid, fluid playing.
 
+<script language="javascript">
+
+$(function() {
+    var today = new Date().getTime();
+
+    if(today > new Date("5 Nov 2021").getTime() ) {
+        $('.buy-form').hide();
+        $('.unavailable-message').show();
+    }
+
+});
+
+
+</script>

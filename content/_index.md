@@ -43,12 +43,12 @@ current_nav: about
 <div class="card">
 <div class="card-body">
 <h3 style="text-transform:uppercase; font-size: 0.85rem; color: rgba(255,111,0,1); letter-spacing: 0.2rem; border: none; font-family: helvetica, sans-serif">Featured Single</h3>
-<h2 class="card-title" style="font-size: 1.5rem">The Dream Passes by the Windows, a Ukrainian Lullaby</h2>
+<a href="/shop/the-dream-passes-by-the-windows-a-ukrainian-lullaby"><h2 class="card-title" style="font-size: 1.5rem">The Dream Passes by the Windows, a Ukrainian Lullaby</h2></a>
 <!--h2 class="card-title" style="font-size: 1.5rem">Wayfaring Stranger</h2-->
 <div class="row">
 <div class="col-md-5"><a href="/shop/the-dream-passes-by-the-windows-a-ukrainian-lullaby"><img src="/shop/the-dream-passes-by-the-windows-a-ukrainian-lullaby/cover.jpg" style="border: none; width: 100%"></a></div>
 <div class="col-md-7">
-<p class="card-text" style="font-size: 0.9rem">A sweet and beautiful Ukrainian lullaby. All profits from the sale of this tune will go to The <b>International Rescue Committee for Ukrainian refugees</b>.</a>.
+<p class="card-text" style="font-size: 0.9rem">A sweet and beautiful Ukrainian lullaby. All profits from the sale of this tune will go to The <b>International Rescue Committee for Ukrainian refugees</b>.
 </p>
 </div>
 </div>

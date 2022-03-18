@@ -43,15 +43,16 @@ current_nav: about
 <div class="card">
 <div class="card-body">
 <h3 style="text-transform:uppercase; font-size: 0.85rem; color: rgba(255,111,0,1); letter-spacing: 0.2rem; border: none; font-family: helvetica, sans-serif">Featured Single</h3>
-<h2 class="card-title" style="font-size: 1.5rem">Wayfaring Stranger</h2>
+<h2 class="card-title" style="font-size: 1.5rem">The Dream Passes by the Windows, a Ukrainian Lullaby</h2>
+<!--h2 class="card-title" style="font-size: 1.5rem">Wayfaring Stranger</h2-->
 <div class="row">
-<div class="col-md-5"><a href="/shop/i-am-a-poor-wayfaring-stranger"><img src="/shop/i-am-a-poor-wayfaring-stranger/cover_hufd713b1761f77e662cc4dce052663f1f_51463_800x0_resize_q75_box.jpg" style="border: none; width: 100%"></a></div>
+<div class="col-md-5"><a href="/shop/the-dream-passes-by-the-windows-a-ukrainian-lullaby"><img src="/shop/the-dream-passes-by-the-windows-a-ukrainian-lullaby/cover.jpg" style="border: none; width: 100%"></a></div>
 <div class="col-md-7">
-<p class="card-text" style="font-size: 0.9rem">Carol's arrangement of this haunting folk tune that became popular in the movie <i>1917</i> and was featured on <a href="https://www.harptuesday.com/ep201/">Harp Tuesday</a>.
+<p class="card-text" style="font-size: 0.9rem">A sweet and beautiful Ukrainian lullaby. All profits from the sale of this tune will go to The <b>International Rescue Committee for Ukrainian refugees</b>.</a>.
 </p>
 </div>
 </div>
-<a class="btn btn-primary btn-lg" href="/shop/i-am-a-poor-wayfaring-stranger">Buy now</a>
+<a class="btn btn-primary btn-lg" href="/shop/the-dream-passes-by-the-windows-a-ukrainian-lullaby">Buy now</a>
 </div>
 </div>
 

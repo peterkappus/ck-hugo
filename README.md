@@ -22,16 +22,20 @@ hugo server --disableFastRender --navigateToChanged --bind=0.0.0.0
 
 * Create the new folder & index document:
 * `docker run --rm -it -v "$(pwd)":/src klakegg/hugo:0.50-ext new shop/<book-title-goes-here>/index.md`
-* inside the folder add the following:
+* open shop/book-name/
+* inside the folder add the following (renanmed like so):
 ** cover.pdf
 ** sample.m4a
 ** sample.pdf
 * Cover & sample usually arrive as PDFs. Convert them to JPGs like so:
-* Convert the sample PDF to a jpg:
-  - `convert -density 500 -quality 80 -background White -layers flatten -resize 800x [name].pdf [name].jpg`
-  
-  
+* Convert the cover & sample PDFs to a jpg:
+* use [docker imagemagick](https://hub.docker.com/r/dpokidov/imagemagick/):
+
 ```
+docker run -v "$(pwd)":/imgs dpokidov/imagemagick -density 500 -quality 80 -background White -layers flatten -resize 800x /imgs/cover.pdf /imgs/cover.jpg  
+```
+
+
 ---
 title: What Wondrous Love Is This
 date: 2021-03-03T19:54:37Z

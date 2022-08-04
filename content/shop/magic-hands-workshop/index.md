@@ -1,13 +1,13 @@
 ---
 title: Magic Hands Workshop
 date: 2021-10-17T17:21:24Z
-draft: false
+draft: true
 #if this can be bought as both physical and digital
 digital_price: 10
 #for digital only
 display_price: 10
 digital: false
-product_type: workshop
+product_type: event
 expires: 2021-11-04
 ---
 

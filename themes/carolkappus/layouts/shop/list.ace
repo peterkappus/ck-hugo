@@ -6,6 +6,18 @@
       p {{.Content }}
       .row
         .col-md-12.shop
+          hr
+          h2 Shows, Events & Workshops
+          p Buy tickets to online and in-person shows, events and workshops with Carol and friends.
+          .row.shop
+            {{ range where .Data.Pages "Params.product_type" "event"}}
+              .col-md-3
+                = include partials/shopitem.html .
+            {{end}}  
+
+      .row
+        .col-md-12.shop
+          hr
           h2 Digital Singles
           p These pieces are distributed as PDFs which will be emailed to you after completing your order.
           .row.shop
@@ -16,6 +28,7 @@
             
       .row
         .col-md-12.shop
+          hr
           h2 Books (Digital or Printed)
           p These books may be purchased as digital PDFs or as professionally printed books featuring plastic comb-binding so they will lay flat on your music stand. <!--NOTE: Due to COVID-19, books are not currently being mailed out. Your order will be delivered as a PDF and a physical book will be shipped later when it is safe to do so.-->
           .row.shop
@@ -27,14 +40,5 @@
               .card.border.border-info style="margin-top: 5rem"
                 .card-body
                   h4 style="width: 100%; display: block; text-align: center; padding-top: 1rem" Looking for more? <a href="/contact">Get in touch.</a>   
-      .row
-        .col-md-12.shop
-          h2 Workshops & Events
-          p Buy tickets to various events and workshops both online and off.
-          .row.shop
-            {{ range where .Data.Pages "Params.product_type" "workshop"}}
-              .col-md-3
-                = include partials/shopitem.html .
-            {{end}}  
 
 {{ partial "footer.html" . }}

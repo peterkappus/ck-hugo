@@ -14,7 +14,7 @@
         .col-md-8
           .row
             .col-sm-12 style="margin-bottom: 1rem"
-              {{if (.Params.digital)}}
+              {{if and .Params.digital }}
                 i.text-warning Digital Download (PDF)
               {{- end }}
               h1 {{.Title}} 

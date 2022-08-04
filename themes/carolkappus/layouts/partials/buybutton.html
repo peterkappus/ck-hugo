@@ -31,11 +31,14 @@
   <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
   <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
 </form>
+
 {{ if not .Params.digital}}
 <!--small style="line-height: 1.1rem; display: block; margin: 0.5rem 2rem;">Please Note: Due to COVID-19, physical books are NOT being mailed out at this time. When you order a physical book you will receive a PDF and we will send your physical book as soon as possible.</small-->
 {{- end}}
 
+{{ if not (eq .Params.product_type "event") }}
 <div style="font-size: 1.2rem; margin: 1rem; padding: 0.5rem;">
   Carol will personally send your PDF as soon as she can, within 24 hours.
 </div> 
+{{- end }}
     

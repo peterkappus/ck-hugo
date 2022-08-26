@@ -2,21 +2,18 @@
 New Hugo implementation of CarolKappus.com
 
 
-## Development
+## Setup
 
-### Using Docker
+1. Export the google sheet "Carolkappus.com events" (check your Google Drive) to `content/calendar/export.csv`
+2. Run `./dev.sh`
+
+## HUGO version 0.50
 The last version of Hugo which supports Ace template is 0.50. To support sass compilation, we need the "extended" version of hugo so `klakegg/hugo:0.50-ext`
 
 ```
 docker run --rm -it -v "$(pwd)":/src -p 1313:1313 klakegg/hugo:0.50-ext server --disableFastRender --navigateToChanged --bind=0.0.0.0 --gc --noHTTPCache
 open http://localhost:1313
 ```
-
-### Running hugo locally
-```
-hugo server --disableFastRender --navigateToChanged --bind=0.0.0.0
-```
-
 
 ## Making new books & music to sell
 

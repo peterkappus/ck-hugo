@@ -3,10 +3,10 @@ title: Fun Tunes for My Furry Friends
 date: 2022-07-18T17:32:54Z
 draft: false
 #if this can be bought as both physical and digital
-digital_price: 20
+digital_price: 15
 physical_price: 26
 #for digital only
-display_price: 20
+display_price: 15
 digital: false
 sample_img_1: /shop/fun-tunes-for-my-furry-friends/sample.jpg
 sample_audio_1: /shop/fun-tunes-for-my-furry-friends/sample.m4a

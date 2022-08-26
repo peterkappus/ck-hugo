@@ -6,6 +6,9 @@ New Hugo implementation of CarolKappus.com
 
 1. Export the google sheet "Carolkappus.com events" (check your Google Drive) to `content/calendar/export.csv`
 2. Run `./dev.sh`
+3. Add your AWS secrets to `secrets.aws` (DON'T COMMIT! ;-)
+4. Deply by running `./deploy.sh`
+
 
 ## HUGO version 0.50
 The last version of Hugo which supports Ace template is 0.50. To support sass compilation, we need the "extended" version of hugo so `klakegg/hugo:0.50-ext`

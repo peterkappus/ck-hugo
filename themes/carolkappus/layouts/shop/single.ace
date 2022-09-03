@@ -17,8 +17,9 @@
               {{if and .Params.digital }}
                 i.text-warning Digital Download (PDF)
               {{- end }}
-              #promo style="padding: 0.5rem; text-align: center; box-shadow: 10px; background: #e00; color: #ff0"
-                h3 Special discount this weekend only!
+              /
+                #promo style="padding: 0.5rem; text-align: center; box-shadow: 10px; background: #e00; color: #ff0"
+                  h3 Special discount this weekend only!
               h1 {{.Title}} 
               {{if (.Params.subtitle) }}
               h2 {{ .Params.subtitle }}

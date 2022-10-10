@@ -4,7 +4,7 @@ date: 2020-07-05T08:02:35+01:00
 draft: false
 #if this can be bought as both physical and digital
 digital_price: 20
-physical_price: 25
+physical_price: 26
 #for digital only
 display_price: 20
 digital: false

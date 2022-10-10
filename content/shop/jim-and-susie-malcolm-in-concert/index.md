@@ -1,7 +1,7 @@
 ---
 title: Jim and Susie Malcolm in Concert – Live in Ann Arbor MI on September 21, 2022 at 7:30pm
 date: 2022-08-04T19:08:21Z
-draft: false
+draft: true
 #if this can be bought as both physical and digital
 digital_price: 20
 #for digital only

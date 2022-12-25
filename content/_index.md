@@ -50,7 +50,7 @@ current_nav: about
 <div class="row">
 <div class="col-md-5"><a href="/music-videos/"><img src="/christmas-2022.jpg" style="width: 100%; margin-bottom: 1rem"></a></div>
 <div class="col-md-7">
-<p class="card-text" style="font-size: 0.9rem">An 11 minute video about German Christmas carols and see my new German Luna travel harp!
+<p class="card-text" style="font-size: 0.9rem">An 11 minute video about German Christmas carols and a look at my new German Luna travel harp!
 </p>
 </div>
 </div>

@@ -7,6 +7,11 @@ aliases: [music.html, music]
 
 <p class="lead">A selection of music and videos featuring Carol Kappus on Celtic Harp. Check out her <a href="https://www.youtube.com/channel/UC5qj9r5ziOtseNLmw26zm0A" target="_blank">YouTube Channel</a> for more.</p>
 
+## Christmas Greetings for 2022
+An 11 minute video about German Christmas carols and my new German Luna travel harp. 
+{{< vimeo 777733551 >}}
+
+
 ## A virtual visit to Carol's Music Booth
 Here's what you'd see if you visited Carol's music booth at the [Somerset Folk Harp Festival](https://www.somersetharpfest.com/).
 {{< vimeo 414351022 >}}

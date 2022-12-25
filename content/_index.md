@@ -42,10 +42,24 @@ current_nav: about
 <div class="col-md-4">
 <div class="card">
 <div class="card-body">
-<h3 style="text-transform:uppercase; font-size: 0.85rem; color: rgba(255,111,0,1); letter-spacing: 0.2rem; border: none; font-family: helvetica, sans-serif">New Book!</h3>
+<h3 style="text-transform:uppercase; font-size: 0.85rem; color: rgba(255,111,0,1); letter-spacing: 0.2rem; border: none; font-family: helvetica, sans-serif">What's new?</h3>
+
+
+<a href="/music-videos"><h2 class="card-title" style="font-size: 1.5rem">Video: Festive Greetings!</h2></a>
+
+<div class="row">
+<div class="col-md-5"><a href="/music-videos/"><img src="/christmas-2022.jpg" style="width: 100%; margin-bottom: 1rem"></a></div>
+<div class="col-md-7">
+<p class="card-text" style="font-size: 0.9rem">An 11 minute video about German Christmas carols and see my new German Luna travel harp!
+</p>
+</div>
+</div>
+
+<a class="btn btn-primary btn-lg" href="/music-videos/">Watch now</a>
 
 
 <!--
+<h3 style="text-transform:uppercase; font-size: 0.85rem; color: rgba(255,111,0,1); letter-spacing: 0.2rem; border: none; font-family: helvetica, sans-serif">New Book!</h3>
 <a href="/shop/the-dream-passes-by-the-windows-a-ukrainian-lullaby"><h2 class="card-title" style="font-size: 1.5rem">The Dream Passes by the Windows, a Ukrainian Lullaby</h2></a>
 <h2 class="card-title" style="font-size: 1.5rem">Wayfaring Stranger</h2>
 <div class="row">
@@ -58,7 +72,9 @@ current_nav: about
 <a class="btn btn-primary btn-lg" href="/shop/the-dream-passes-by-the-windows-a-ukrainian-lullaby">Buy now</a>
 -->
 
+<!---
 <a href="/shop/fun-tunes-for-my-furry-friends/"><h2 class="card-title" style="font-size: 1.5rem">Fun Tunes for my Furry Friends</h2></a>
+
 <div class="row">
 <div class="col-md-5"><a href="/shop/fun-tunes-for-my-furry-friends/"><img src="/shop/fun-tunes-for-my-furry-friends/cover.jpg" style="border: 1px solid black; width: 100%; margin-bottom: 1rem"></a></div>
 <div class="col-md-7">
@@ -66,7 +82,12 @@ current_nav: about
 </p>
 </div>
 </div>
+
 <a class="btn btn-primary btn-lg" href="/shop/fun-tunes-for-my-furry-friends/">Buy now</a>
+-->
+
+
+
 
 </div>
 </div>

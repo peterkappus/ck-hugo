@@ -1,5 +1,5 @@
 ---
-title: Buy Celtic Harp Sheet Music
+title: Buy Celtic Harp Sheet Music, Books, Digital Downloads, and Event Tickets
 date: 2018-08-11T21:58:40-04:00
 draft: false
 aliases: ['store.html','/buy','buy','store']

@@ -5,6 +5,7 @@ draft: false
 display_price: 10
 digital_price: 10
 physical_price: 15
+product_type: book
 digital: false
 sample_img_1: /shop/getting-started-easier-tunes-for-celtic-harp/sundance.jpg
 sample_audio_1: /shop/getting-started-easier-tunes-for-celtic-harp/sundance.m4a

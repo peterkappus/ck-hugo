@@ -5,6 +5,7 @@ draft: false
 #if this can be bought as both physical and digital
 digital_price: 20
 physical_price: 26
+product_type: book
 #for digital only
 display_price: 20
 digital: false

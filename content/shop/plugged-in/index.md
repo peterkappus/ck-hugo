@@ -4,6 +4,7 @@ date: 2015-08-11T23:20:21-04:00
 display_price: 5
 digital_price: 5
 physical_price: 8.5
+product_type: book
 sample_audio_1: /shop/plugged-in/calanais.m4a
 ---
 

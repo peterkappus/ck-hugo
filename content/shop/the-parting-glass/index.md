@@ -5,6 +5,7 @@ draft: false
 display_price: 10.00
 digital_price: 10
 physical_price: 15
+product_type: book
 ---
 
 The Parting Glass contains three famous parting glass songs:

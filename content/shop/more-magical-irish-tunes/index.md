@@ -1,6 +1,7 @@
 ---
 title: More Magical Irish Tunes for Celtic Harp
 date: 2018-08-11T22:08:23-04:00
+product_type: book
 draft: false
 display_price: 10
 digital_price: 10

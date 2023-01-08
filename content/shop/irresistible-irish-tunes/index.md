@@ -4,6 +4,7 @@ date: 2018-08-11T19:30:25-04:00
 display_price: 10
 digital_price: 10
 physical_price: 15
+product_type: book
 sample_audio_1: /shop/irresistible-irish-tunes/gartan-mothers-lullaby.m4a
 sample_img_1: /shop/irresistible-irish-tunes/gartan-mothers-lullaby.jpg
 sample_description: Gartan Mother's Lullaby

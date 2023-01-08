@@ -5,6 +5,7 @@ draft: false
 #if this can be bought as both physical and digital
 digital_price: 25
 physical_price: 30
+product_type: book
 #for digital only
 display_price: 25
 sample_img_1: /shop/getting-started-easier-tunes-for-celtic-harp/southwind.jpg

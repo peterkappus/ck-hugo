@@ -2,6 +2,7 @@
 title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
 draft: false
+product_type: [single|book|event]
 #if this can be bought as both physical and digital
 digital_price: 10
 physical_price: 15

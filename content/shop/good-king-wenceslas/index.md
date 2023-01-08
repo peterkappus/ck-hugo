@@ -8,6 +8,7 @@ digital_price: 3
 #for digital only
 display_price: 3
 digital: true
+product_type: single
 #sample_img_1: /shop/good-king-wenceslas/sample.jpg
 sample_audio_1: /shop/good-king-wenceslas/sample.m4a
 

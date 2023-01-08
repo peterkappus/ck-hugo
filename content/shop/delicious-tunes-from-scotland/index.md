@@ -5,6 +5,7 @@ draft: false
 display_price: 10
 digital_price: 10
 physical_price: 15
+product_type: book
 sample_audio_1: /shop/delicious-tunes-from-scotland/pipe-tune-sandwich.m4a
 sample_img_1: /shop/delicious-tunes-from-scotland/hector-the-hero.jpg
 sample_description: Pipe Tune Sandwich

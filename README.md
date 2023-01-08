@@ -43,6 +43,7 @@ draft: false
 #if this can be bought as both physical and digital
 digital_price: 3
 physical_price: 3
+product_type: book|single|event
 shipping: 3.50
 #for digital only
 display_price: 3

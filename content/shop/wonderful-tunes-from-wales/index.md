@@ -5,6 +5,7 @@ draft: false
 display_price: 10
 digital_price: 10
 physical_price: 15
+product_type: book
 sample_audio_1: /shop/wonderful-tunes-from-wales/wonderful-tunes-from-wales.m4a
 sample_img_1: /shop/wonderful-tunes-from-wales/wonderful-tunes-from-wales.jpg
 sample_description: Hear a sample of Carol playing Ar Lan y Môr.

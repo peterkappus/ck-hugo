@@ -5,6 +5,7 @@ draft: false
 display_price: 10
 digital_price: 10
 physical_price: 15
+product_type: book
 sample_img_1: /shop/more-schlurpy-tunes/the-water-is-wide.jpg
 sample_description: The Water is Wide
 sample_audio_1: /shop/more-schlurpy-tunes/the-water-is-wide.m4a

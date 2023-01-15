@@ -36,7 +36,7 @@
           h2 Books (Digital or Printed)
           p These books may be purchased as digital PDFs or as professionally printed books featuring plastic comb-binding so they will lay flat on your music stand. <!--NOTE: Due to COVID-19, books are not currently being mailed out. Your order will be delivered as a PDF and a physical book will be shipped later when it is safe to do so.-->
           .row.shop
-            {{ range where .Data.Pages "Params.physical_price" ">" 0 }}
+            {{ range where .Data.Pages "Params.product_type" "eq" "book" }}
               .col-md-3 
                 = include partials/shopitem.html .
             {{ end }}

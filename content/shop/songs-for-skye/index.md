@@ -5,6 +5,7 @@ draft: false
 display_price: 20
 digital_price: 20
 physical_price: 25
+product_type: book
 sample_description: The Fairy Pools
 sample_audio_1: /shop/songs-for-skye/the-fairy-pools.m4a
 sample_img_1: /shop/songs-for-skye/the-fairy-pools.jpg

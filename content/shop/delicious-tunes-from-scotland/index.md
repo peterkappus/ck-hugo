@@ -13,9 +13,6 @@ sample_description: Pipe Tune Sandwich
 
 Lyrics are included for all the tunes that have them, along with extensive notes about each song.
 
-<div class="row">
-<div class="col-md-6">
-{{% markdownify %}}
  -  A Pheigi a Ghraidh
  -  Ceud Soraidh, Ceud Fàilte
  -  Fil Ò Ro
@@ -23,18 +20,9 @@ Lyrics are included for all the tunes that have them, along with extensive notes
  -  Jock O’Hazeldean
  -  The Shearing
  -  Tioram air Tìr
-{{% /markdownify %}}
-</div>
-
-<div class="col-md-6">
-{{% markdownify %}}
  -  The Valley of Strathmore
  -  Hector the Hero
  -  Sìne Bhàn
  -  Highland Cathedral
  -  Wendle’s Wedding
  -  and a special secret bonus tune
-{{% /markdownify %}}
-
-</div>
-</div>

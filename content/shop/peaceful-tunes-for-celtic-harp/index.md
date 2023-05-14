@@ -20,8 +20,8 @@ Eighteen beautiful, peaceful tunes, very suitable for harp therapy use.  Most of
 ## Tunes in this book:
 
 - Two tunes about messages from the afterlife:
--           The Double Rainbow
--           The White Bird
+    -  The Double Rainbow
+    -  The White Bird
 - Winter Solstice
 - The New Dawn
 - Da Day Dawn

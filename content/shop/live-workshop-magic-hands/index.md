@@ -2,7 +2,7 @@
 title: "Live Workshop: Magic Hands - Saturday, January 21 - 2pm EST"
 date: 2023-01-07T11:21:44Z
 product_type: event
-draft: false
+draft: true
 #if this can be bought as both physical and digital
 digital_price: 15
 #for digital only

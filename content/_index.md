@@ -44,9 +44,23 @@ current_nav: about
 <div class="card-body">
 <h3 style="text-transform:uppercase; font-size: 0.85rem; color: rgba(255,111,0,1); letter-spacing: 0.2rem; border: none; font-family: helvetica, sans-serif">What's new?</h3>
 
+<!-- promotion block-->
 
+<a href="/shop/peaceful-tunes-for-celtic-harp/"><h2 class="card-title" style="font-size: 1.5rem">Book: Peaceful Tunes for Celtic Harp</h2></a>
+<div class="row">
+<div class="col-md-5"><a href="/shop/peaceful-tunes-for-celtic-harp/"><img src="/shop/peaceful-tunes-for-celtic-harp/cover.jpg" style="width: 100%; margin-bottom: 1rem"></a></div>
+<div class="col-md-7">
+<p class="card-text" style="font-size: 0.9rem">Carol's latest book full of beautiful peaceful tunes for celtic harp.
+</p>
+</div>
+</div>
+
+<a class="btn btn-primary btn-lg" href="/shop/peaceful-tunes-for-celtic-harp/">Learn more</a>
+
+<!-- Christmas 2022 -->
+
+<!-- 
 <a href="/music-videos"><h2 class="card-title" style="font-size: 1.5rem">Video: Festive Greetings!</h2></a>
-
 <div class="row">
 <div class="col-md-5"><a href="/music-videos/"><img src="/christmas-2022.jpg" style="width: 100%; margin-bottom: 1rem"></a></div>
 <div class="col-md-7">
@@ -56,6 +70,9 @@ current_nav: about
 </div>
 
 <a class="btn btn-primary btn-lg" href="/music-videos/">Watch now</a>
+-->
+
+<!-- END PROMO BLOCK-->
 
 
 <!--

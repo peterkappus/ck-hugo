@@ -3,3 +3,5 @@ resources/_gen*
 *.csv
 public
 secrets.env
+
+node_modules

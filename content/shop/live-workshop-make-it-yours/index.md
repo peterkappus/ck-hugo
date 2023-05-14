@@ -2,7 +2,7 @@
 title: "Live Workshop: Make it yours! Saturday,
 January 28 - 2:00 EST"
 date: 2023-01-08T11:41:31Z
-draft: false
+draft: true
 product_type: event
 #if this can be bought as both physical and digital
 digital_price: 15

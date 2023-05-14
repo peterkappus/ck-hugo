@@ -22,17 +22,19 @@ open http://localhost:1313
 
 * Create the new folder & index document:
 * `docker run --rm -it -v "$(pwd)":/src klakegg/hugo:0.50-ext new shop/<book-title-goes-here>/index.md`
-* open shop/book-name/
-* inside the folder add the following (renanmed like so):
+* `open content/shop/book-title/`
+* Drag files (from email) into the folder and rename as follows:
 ** cover.pdf
 ** sample.m4a
 ** sample.pdf
-* Cover & sample usually arrive as PDFs. Convert them to JPGs like so:
-* Convert the cover & sample PDFs to a jpg:
-* use [docker imagemagick](https://hub.docker.com/r/dpokidov/imagemagick/):
+* Convert PDFs to JPGs like so using [imagemagick](https://hub.docker.com/r/dpokidov/imagemagick/):
 
 ```
 docker run -v "$(pwd)":/imgs dpokidov/imagemagick -density 500 -quality 80 -background White -layers flatten -resize 800x /imgs/cover.pdf /imgs/cover.jpg  
+
+# repeat for sample.pdf
+
+docker run -v "$(pwd)":/imgs dpokidov/imagemagick -density 500 -quality 80 -background White -layers flatten -resize 800x /imgs/sample.pdf /imgs/sample.jpg  
 ```
 
 

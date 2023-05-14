@@ -10,7 +10,7 @@ physical_price: 26
 display_price: 20
 digital: false
 sample_img_1: /shop/peaceful-tunes-for-celtic-harp/sample.jpg
-#sample_audio_1: /shop/peaceful-tunes-for-celtic-harp/sample.m4a
+sample_audio_1: /shop/peaceful-tunes-for-celtic-harp/sample.m4a
 
 ---
 

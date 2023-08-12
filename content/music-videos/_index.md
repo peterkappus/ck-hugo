@@ -4,8 +4,13 @@ date: 2018-08-07T16:04:19-04:00
 draft: false
 aliases: [music.html, music]
 ---
-
 <p class="lead">A selection of music and videos featuring Carol Kappus on Celtic Harp. Check out her <a href="https://www.youtube.com/channel/UC5qj9r5ziOtseNLmw26zm0A" target="_blank">YouTube Channel</a> for more.</p>
+
+## Recordings
+Recordings of many of these tunes are available on YouTube. Please consult the list below. Have you found a new recording? <a href="/contact">Let me know</a>.
+
+<a class="btn btn-lg btn-primary" href="https://docs.google.com/spreadsheets/d/1Ucl8hGXdjg4UjoaEAfTzO6doke8-Wt_DxFmbOhRDwEA/" target="_blank"> Visit the list</a>
+
 
 ## Christmas Greetings for 2022
 An 11 minute video about German Christmas carols and my new German Luna travel harp. 
@@ -70,6 +75,8 @@ A clip from a Valentine's Day concert, 2011
 <li><a data-src="music/lagan_love-irish.mp3" href="#">Lagan Love (Traditional Irish)</a></li><li><a data-src="music/loch_tay_boat_song-scottish.mp3" href="#">Loch Tay Boat Song (Traditional Scottish)</a></li>
 <li><a data-src="music/my_love_is_like_a_red_red_rose-burns.mp3" href="#">My Love is Like a Red Red Rose (Robert Burns)</a></li>
 <li><a data-src="music/the_lea_rig-burns.mp3" href="#">The Lea Rig (Robert Burns)</a></li></ol>
+
+
 
 <!-- hack... load jquery first (and then again redundantly via footer) so that music player will initialise. TODO: find a better player using built-in HTML5 components -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

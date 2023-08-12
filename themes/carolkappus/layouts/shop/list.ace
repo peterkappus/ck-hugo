@@ -45,5 +45,10 @@
               .card.border.border-info style="margin-top: 5rem"
                 .card-body
                   h4 style="width: 100%; display: block; text-align: center; padding-top: 1rem" Looking for more? <a href="/contact">Get in touch.</a>   
+          .row.shop
+            .col 
+              {{ partial "recordings_list" .}}
+
+
 
 {{ partial "footer.html" . }}

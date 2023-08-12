@@ -1,5 +1,5 @@
 
-{{ $list := getCSV "," "content/calendar/export.csv" }}
+{{ $list := getCSV "," "content/calendar/events.csv" }}
 
 {{ range $i, $r := $list }}
 {{ $title := index $r 3 }}

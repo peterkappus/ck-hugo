@@ -35,8 +35,9 @@ html lang="en"
               a.nav-link href="/calendar"  Calendar
             li.nav-item
               a.nav-link href="/press"  Press
-            li.nav-item
-              a.nav-link href="/performances"  Performances
+            /
+              li.nav-item
+                a.nav-link href="/performances"  Performances
             li.nav-item
               a.nav-link href="/lessons-workshops"  Lessons & Workshops
             li.nav-item

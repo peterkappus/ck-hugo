@@ -11,8 +11,7 @@ New Hugo implementation of CarolKappus.com
 
 ## Generating new events
 Install wget `brew install wget` if necessary
-`cd live_data`
-`wget "https://docs.google.com/spreadsheets/d/1jJgKcQ3V79yT1_NaIgAqfu6Fr5yjOb7vBvIKfPTBMeY/export?exportFormat=csv" -O ../content/calendar/events.csv`
+`wget "https://docs.google.com/spreadsheets/d/1jJgKcQ3V79yT1_NaIgAqfu6Fr5yjOb7vBvIKfPTBMeY/export?exportFormat=csv" -O content/calendar/events.csv`
 
 ## Export YouTube Links
 Exporting a spreadsheet as a TSV from Google Drive

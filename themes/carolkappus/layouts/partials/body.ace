@@ -6,6 +6,6 @@
       {{- end}}
       {{ .Content }}
     {{if (fileExists (printf "%s%s" .File.Dir  "/sidebar.md")) -}}
-      .sidebar.col-md-4
+      .sidebar.col-md-4 style="margin-top: 2rem"
         {{readFile (printf "%s%s" .File.Dir  "/sidebar.md") | markdownify}}
     {{- end }}

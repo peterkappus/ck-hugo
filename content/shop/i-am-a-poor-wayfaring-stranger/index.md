@@ -2,7 +2,7 @@
 title: I Am a Poor Wayfaring Stranger
 date: 2020-12-10T23:40:26-04:00
 draft: false
-display_price: "3.00"
+display_price: "5.00"
 digital: true
 ---
 

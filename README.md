@@ -4,7 +4,7 @@ New Hugo implementation of CarolKappus.com
 
 ## Setup
 
-1. Export the google sheet "Carolkappus.com events" (check your Google Drive) to `content/calendar/export.csv`
+1. Export the google sheet "Carolkappus.com events" (check your Google Drive) to `content/calendar/events.csv`
 2. Run `./dev.sh`
 3. Add your AWS secrets to `secrets.aws` (DON'T COMMIT! ;-)
 4. Deply by running `./deploy.sh`
@@ -51,12 +51,12 @@ title: What Wondrous Love Is This
 date: 2021-03-03T19:54:37Z
 draft: false
 #if this can be bought as both physical and digital
-digital_price: 3
-physical_price: 3
+digital_price: 5
+physical_price: 5
 product_type: book|single|event
 shipping: 3.50
 #for digital only
-display_price: 3
+display_price: 5
 digital: true
 sample_img_1: /shop/what-wondrous-love-is-this/sample.jpg
 sample_audio_1: /shop/what-wondrous-love-is-this/sample.m4a

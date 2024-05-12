@@ -2,7 +2,7 @@
 title: Salisbury Steps (PDF)
 date: 2019-09-08T09:57:53+01:00
 draft: false
-display_price: 3
+display_price: 5
 digital: true
 sample_img_1: /shop/salisbury-steps/score-sample.jpg
 sample_audio_1: /shop/salisbury-steps/sample.m4a

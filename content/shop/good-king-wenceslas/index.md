@@ -3,10 +3,10 @@ title: Good King Wenceslas
 date: 2022-11-13T21:13:30Z
 draft: false
 #if this can be bought as both physical and digital
-digital_price: 3
+digital_price: 5
 #physical_price: 15
 #for digital only
-display_price: 3
+display_price: 5
 digital: true
 product_type: single
 #sample_img_1: /shop/good-king-wenceslas/sample.jpg

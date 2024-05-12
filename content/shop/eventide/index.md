@@ -2,7 +2,7 @@
 title: Eventide for Celtic Harp
 date: 2018-08-11T23:40:26-04:00
 draft: false
-display_price: "3.00"
+display_price: "5.00"
 digital: true
 ---
 

@@ -2,8 +2,8 @@
 title: The Lighthouse (PDF)
 date: 2019-07-01T13:32:49-04:00
 draft: false
-digital_price: "3.00"
-display_price: 3
+digital_price: "5.00"
+display_price: 5
 digital: true
 sample_audio_1: /shop/the-lighthouse/the-lighthouse.m4a
 sample_description: Hear a sample of Carol playing The Lighthouse below.

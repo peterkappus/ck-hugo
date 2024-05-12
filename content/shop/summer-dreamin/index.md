@@ -2,7 +2,7 @@
 title: Summer Dreamin'
 date: 2018-08-12T13:32:49-04:00
 draft: false
-display_price: "3.00"
+display_price: "5.00"
 digital: true
 sample_audio_1: /shop/summer-dreamin/sample.m4a
 

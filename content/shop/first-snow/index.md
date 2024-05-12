@@ -1,7 +1,7 @@
 ---
 title: First Snow
-display_price: 3
-digital_price: 3
+display_price: 5
+digital_price: 5
 digital: true
 date: 2019-11-10T19:12:47Z
 draft: false

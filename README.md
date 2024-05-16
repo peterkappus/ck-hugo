@@ -28,6 +28,8 @@ open http://localhost:1313
 
 ## Making new books & music to sell
 
+
+
 * Create the new folder & index document:
 * `docker run --rm -it -v "$(pwd)":/src klakegg/hugo:0.50-ext new shop/<book-title-goes-here>/index.md`
 * `open content/shop/book-title/`

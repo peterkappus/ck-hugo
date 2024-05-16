@@ -1,6 +1,6 @@
 ---
 title: Six Sweet Summer Tunes for Celtic Harp
-aliass:
+aliases:
 - /shop/six-sweet-summer-tunes
 date: 2024-05-17T10:24:34Z
 draft: false

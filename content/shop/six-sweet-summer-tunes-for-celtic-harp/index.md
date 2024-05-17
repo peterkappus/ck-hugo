@@ -2,7 +2,8 @@
 title: Six Sweet Summer Tunes for Celtic Harp
 aliases:
 - /shop/six-sweet-summer-tunes
-date: 2024-05-17T10:24:34Z
+date: 2024-05-16T10:24:34Z
+featured: true
 draft: false
 product_type: book
 #if this can be bought as both physical and digital

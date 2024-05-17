@@ -28,7 +28,9 @@ open http://localhost:1313
 
 ## Making new books & music to sell
 
+See `./new-product.sh`
 
+It does this:
 
 * Create the new folder & index document:
 * `docker run --rm -it -v "$(pwd)":/src klakegg/hugo:0.50-ext new shop/<book-title-goes-here>/index.md`

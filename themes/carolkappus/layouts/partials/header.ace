@@ -42,7 +42,7 @@ html lang="en"
               a.nav-link href="/lessons-workshops"  Lessons & Workshops
             li.nav-item
               a.nav-link href="/contact"  Contact
-    = include partials/_signup_banner.html .      
+    / = include partials/_signup_banner.html .      
     .container
       .row
         / BANNER

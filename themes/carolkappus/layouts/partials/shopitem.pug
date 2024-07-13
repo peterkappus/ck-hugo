@@ -1,0 +1,8 @@
+a(href="{{ .RelPermalink }}")
+  | {{ partial "lazycover" . }}
+.title
+  h5
+    a(href="{{ .RelPermalink}}") {{ .Title }}
+//
+  .float-right
+    a.btn.btn-sm.bg-warning.text-white(href="{{ .RelPermalink}}") Learn more &raquo;

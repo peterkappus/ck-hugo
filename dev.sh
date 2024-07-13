@@ -1,1 +1,11 @@
-docker run --rm -it -v "$(pwd)":/src -p 1313:1313 klakegg/hugo:0.50-ext server --disableFastRender --navigateToChanged --bind=0.0.0.0 --gc --noHTTPCache
+
+# kill child processes (e.g. pug)
+# credit: https://stackoverflow.com/questions/360201/how-do-i-kill-background-processes-jobs-when-my-shell-script-exits
+trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
+
+
+#render pug files into html
+pug -w themes/carolkappus/layouts &
+
+#serve site
+docker compose up

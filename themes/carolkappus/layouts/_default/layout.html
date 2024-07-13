@@ -3,6 +3,6 @@
 li Calon Lân
 li Y Dydd
 li and MORE!--></ul><center><b><a class="btn btn-primary" href="/shop/wonderful-tunes-from-wales/"> Get it now!</a></b></center></div>{{ if eq 3 1}}
-{{ "template..." }}<div class="xmas"><!-- img src="/imgs/xmas-bells.png" style="width: 80px"/-->Merry Christmas, harper friends!<br/><a href="https://bit.ly/2Bmdksi" target="_blank"> Click here to Download my free Christmas gift to you!</a></div>{{ end }}</div>{{ end }}<div class="container"><div class="row">{{- if $.Page.Resources.GetMatch "sidebar.md" -}}<div class="col-md-8">{{ if(.Title) }}<h1>{{ .Title }}</h1>{{- end}}{{ .Content }}</div><div class="sidebar col-md-4" style="margin-top: 2rem">{{- with $.Page.Resources.GetMatch "sidebar.md" -}}
+{{ "template..." }}<div class="xmas"><!-- img src="/imgs/xmas-bells.png" style="width: 80px"/-->Merry Christmas, harper friends!<br/><a href="https://bit.ly/2Bmdksi" target="_blank"> Click here to Download my free Christmas gift to you!</a></div>{{ end }}</div>{{ end }}<div class="container"><div class="row">{{- if $.Page.Resources.GetMatch "sidebar.md" -}}<div class="col-md-8">{{ if(.Title) }}<h1>{{ .Title }}</h1>{{- end}}</div><div class="sidebar col-md-4" style="margin-top: 2rem">{{- with $.Page.Resources.GetMatch "sidebar.md" -}}
 {{ .Content }}
-{{- end}}</div>{{ else }}<div class="col-md-12">{{ if(.Title) }}<h1>{{ .Title }}</h1>{{- end}}{{ .Content }}</div>{{- end -}}</div></div></div></div>{{ partial "footer" .}}</body></html>
+{{- end}}</div>{{ else }}<div class="col-md-12">{{ if(.Title) }}<h1>{{ .Title }}</h1>{{- end}}</div>{{- end -}}</div></div></div></div>{{ partial "footer" .}}</body></html>

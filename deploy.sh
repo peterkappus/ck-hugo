@@ -8,7 +8,7 @@ source secrets.env
 #flags:
 # --size-only (don't copy files if the size is the same in both places...faster but might miss some files (e.g. if you're only updating the year in the footer)
 # --exact-timestamps (use if size is the same but you still need to update)
-docker run -v "$(pwd)"/public:/data --env AWS_ACCESS_KEY_ID=$AWS_ID --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET garland/aws-cli-docker aws s3 sync . s3://carolkappus.com --delete --size-only --acl=public-read --exclude=".git*"
+docker run --rm -it -v "$(pwd)"/public:/aws --env AWS_ACCESS_KEY_ID=$AWS_ID --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET public.ecr.aws/aws-cli/aws-cli:2.15.56 s3 sync . s3://carolkappus.com --delete $FLAGS --exclude=".git*" --acl=public-read
 
-#not using cloudfront for CK.com
-#source secrets.env && docker run -v "$(pwd)"/public:/data --env AWS_ACCESS_KEY_ID=$AWS_ID --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET garland/aws-cli-docker aws cloudfront create-invalidation --distribution-id XXXXXXXXXXXXXX --paths "/index.html" "/blog/*" "/css/main*" "/okrs/*"
+docker run --rm -it -v "$(pwd)"/public:/aws --env AWS_ACCESS_KEY_ID=$AWS_ID --env AWS_SECRET_ACCESS_KEY=$AWS_SECRET public.ecr.aws/aws-cli/aws-cli:2.15.56 s3 sync . s3://www.carolkappus.com --delete $FLAGS --exclude=".git*" --acl=public-read
+

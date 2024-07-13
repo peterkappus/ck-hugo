@@ -1,0 +1,62 @@
+extends ../_default/layout.pug 
+block content
+  .container
+    .row
+      .col-md-12
+        h3(style="border: none")
+          a(style="color: black" href="/shop") &laquo; Return to the shop
+        .row.shop
+          .col-md-4
+            | {{ (partial "lazycover.html" .) }}
+            | {{ partial "buybutton.html" . }}
+            .hide-small
+              | {{ partial "relateditems" . }}
+
+          .col-md-8
+            .row
+              .col-sm-12(style="margin-bottom: 1rem")
+                | {{if and .Params.digital }}
+                i.text-warning Digital Download (PDF)
+                | {{- end }}
+                //
+                  #promo(style="padding: 0.5rem; text-align: center; box-shadow: 10px; background: #e00; color: #ff0")
+                    h3 Special discount this weekend only!
+                h1 {{.Title}} 
+                | {{if (.Params.subtitle) }}
+                h2 {{ .Params.subtitle }}
+                | {{- end }}
+                | {{ partial "shop/buy_block.html" . }}
+                | {{.Content}}
+            | {{  if (or (isset .Params "sample_img_1") (isset .Params "sample_audio_1")) }}
+            .row  
+              | {{ if (.Params.sample_audio_1) }}
+              | {{ $class := cond (or (isset .Params "sample_img_1") (isset .Params "sample_audio_1")) "col-md-6" "col-md-12"  }}
+              div(class="{{ $class }}")
+                .card.bg-light.sample 
+                  .card-body
+                    center
+                      h2 Listen to a sample
+                      | {{ if (.Params.sample_description)}}
+                      p {{.Params.sample_description}}
+                      | {{ else }}
+                      p Hear a sample below:
+                      | {{- end}}
+                      audio controls=""
+                        source(src="{{.Params.sample_audio_1}}" type="audio/mp4")
+                        b Your browser does not support the audio element.
+              | {{- end}}
+                        
+              | {{ if (.Params.sample_img_1) }}
+              | {{ $class := cond (or (isset .Params "sample_img_1") (isset .Params "sample_audio_1")) "col-md-6" "col-md-12"  }}
+
+              div(class="{{ $class }}")
+                .sample 
+                  center
+                    img(src="{{.Params.sample_img_1 }}" style="width:100%;")
+              | {{- end}}
+            | {{- end}}
+            .row
+              .col-sm-12
+                | {{ partial "shop/buy_block.html" . }}
+                .show-small
+                  | {{ partial "relateditems" . }}

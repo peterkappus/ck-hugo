@@ -1,0 +1,46 @@
+extends ../_default/layout.pug 
+block content
+  //
+    | {{ if gt (len (where .Data.Pages "Params.product_type" "event")) 0 }}
+      .row
+        .col-md-12.shop
+          hr
+          h2 Shows, Events & Workshops
+          p Buy tickets to online and in-person shows, events and workshops with Carol and friends.
+          = javascript
+            if(Date.now() < Date.parse("15 January 2023"))
+              document.write("<h4>New ideas for a New Year! Three Zoom workshops to banish the winter blues.</h4>");
+          .row.shop
+            | {{ range where .Data.Pages "Params.product_type" "event"}}
+              .col-md-3
+                | {{ partial "shopitem" . }}
+            | {{end}}  
+    | {{ end }}
+  .row
+    .col-md-12.shop
+      hr
+      h2 Digital Singles
+      p These pieces are distributed as PDFs which will be emailed to you after completing your order.
+      .row.shop
+        | {{ range where .Data.Pages "Params.digital" true}}
+        .col-md-3
+          | {{ partial "shopitem" . }}
+        | {{end}}               
+        
+  .row
+    .col-md-12.shop
+      hr
+      h2 Books (Digital or Printed)
+      p These books may be purchased as digital PDFs or as professionally printed books featuring plastic comb-binding so they will lay flat on your music stand. <!--NOTE: Due to COVID-19, books are not currently being mailed out. Your order will be delivered as a PDF and a physical book will be shipped later when it is safe to do so.-->
+      .row.shop
+        | {{ range where .Data.Pages "Params.product_type" "eq" "book" }}
+        .col-md-3 
+          | {{ partial "shopitem" . }}
+        | {{ end }}
+        .col-md-3
+          .card.border.border-info(style="margin-top: 5rem")
+            .card-body
+              h4(style="width: 100%; display: block; text-align: center; padding-top: 1rem") Looking for more? <a href="/contact")>Get in touch.</a>   
+      .row.shop
+        .col 
+          | {{ partial "recordings_list" .}}

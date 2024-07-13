@@ -1,0 +1,15 @@
+# https://dev.to/robinvanderknaap/setup-hugo-using-docker-43pm
+# TODO: update hugo image: https://docker.hugomods.com/docs/development/docker-compose/
+services:
+  server: 
+    #image: klakegg/hugo:0.50-ext
+    image: hugomods/hugo:exts
+    # command: server -D --poll 700ms
+    #command: server -D --disableFastRender --navigateToChanged --bind=0.0.0.0 --gc --noHTTPCache
+    command: hugo server -D --disableFastRender --navigateToChanged --bind=0.0.0.0 --gc --noHTTPCache 
+    #command: hugo server -D --disableFastRender --navigateToChanged --bind=0.0.0.0 --gc --noHTTPCache --logLevel debug
+    volumes: 
+      - ".:/src"
+      - $HOME/hugo_cache:/tmp/hugo_cache
+    ports: 
+      - "1313:1313"

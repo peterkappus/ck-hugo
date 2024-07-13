@@ -1,0 +1,86 @@
+doctype html
+html(lang="en")
+  | {{ partial "header" . }}
+  body
+    nav.navbar.fixed-top.navbar-expand-lg.navbar-dark
+      .container
+        a.navbar-brand(href="/")  Carol Kappus
+        button.navbar-toggler(aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarSupportedContent" data-toggle="collapse" type="button") 
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.mr-auto
+            li.nav-item
+              a.nav-link(href="/about")  About
+            li.nav-item
+              a.nav-link.shop_nav(href="/shop")  Shop
+            li.nav-item
+              a.nav-link(href="/music-videos")  Music & Videos
+            li.nav-item
+              a.nav-link(href="/harps")  Harps
+            li.nav-item
+              a.nav-link(href="/calendar")  Calendar
+            li.nav-item
+              a.nav-link(href="/press")  Press
+            //
+              li.nav-item
+                a.nav-link(href="/performances")  Performances
+            li.nav-item
+              a.nav-link(href="/lessons-workshops")  Lessons & Workshops
+            li.nav-item
+              a.nav-link(href="/contact")  Contact
+    .container
+      .row
+        // BANNER
+        // turn this into a true statement if you want to run the block below
+        | {{ if eq 5 1}}
+        .col-md-8.offset-md-2
+          .generic-banner
+            .float-right
+              a(href="/shop/wonderful-tunes-from-wales") 
+                img(src="/wales-book-cover-small.jpg")
+            | Now available!
+            b Book #8: Wonderful Tunes From Wales!
+            br/
+            | Including Carol’s signature sound on some of your favorites:
+            ul(style="margin-bottom: 0")
+              li Ar Hyd Y Nos - All Through the Night
+              li Myfanwy
+              li Suo Gân...and MORE!
+              //
+                li Cysaga Di Fy Mhlentyn Tlws - Sleep My Pretty Child
+                li Calon Lân
+                li Y Dydd
+                li and MORE!
+            center
+              b
+                a.btn.btn-primary(href="/shop/wonderful-tunes-from-wales/")  Get it now!
+          | {{ if eq 3 1}}
+          | {{ "template..." }}
+          .xmas
+            // img src="/imgs/xmas-bells.png" style="width: 80px"/
+            | Merry Christmas, harper friends!
+            br/
+            a(href="https://bit.ly/2Bmdksi" target="_blank")  Click here to Download my free Christmas gift to you!
+          | {{ end }}
+        | {{ end }}
+        .container
+          .row
+            | {{- if $.Page.Resources.GetMatch "sidebar.md" -}}
+            div(class="col-md-8")
+              | {{ if(.Title) }}
+              h1 {{ .Title }}
+              | {{- end}}
+              block content
+            .sidebar.col-md-4(style="margin-top: 2rem")
+              | {{- with $.Page.Resources.GetMatch "sidebar.md" -}}
+              | {{ .Content }}
+              | {{- end}}
+            | {{ else }}
+            div(class="col-md-12")
+              | {{ if(.Title) }}
+              h1 {{ .Title }}
+              | {{- end}}
+              block content
+            | {{- end -}}
+            
+    |{{ partial "footer" .}}

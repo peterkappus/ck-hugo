@@ -1,3 +1,3 @@
 <h3>More music</h3>{{ range $i, $item := where .Site.Pages "Type" "shop" | intersect (where .Site.Pages "Title" "!=" .Title) | intersect (where .Site.Pages "Title" "!=" "Buy Celtic Harp Sheet Music") | shuffle | first 4 }}
-{{if eq (mod $i 2) 0 }}<div class="row">{{- end -}}<div class="col-sm-6" style="margin-bottom: 2rem"><a href="{{ $item.RelPermalink }}">{{ partial "lazycover" $item }} style="width:100%")</a><div class="title"><small><a href="{{ $item.RelPermalink}}">{{ $item.Title }}</a></small></div></div>{{if eq (mod $i 2) 1 }}</div>{{- end -}}        
+{{if eq (mod $i 2) 0 }}<div class="row">{{- end -}}<div class="col-sm-6" style="margin-bottom: 2rem"><a href="{{ $item.RelPermalink }}">{{ partial "lazycover" $item }}</a><div class="title"><small><a href="{{ $item.RelPermalink}}">{{ $item.Title }}</a></small></div></div>{{if eq (mod $i 2) 1 }}</div>{{- end -}}        
 {{- end -}}
